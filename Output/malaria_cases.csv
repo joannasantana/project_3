@@ -1,0 +1,2373 @@
+ParentLocation,Location,Period,FactValueNumeric
+Africa,Algeria,2021,0
+Americas,Argentina,2021,0
+Europe,Armenia,2021,0
+Europe,Azerbaijan,2021,0
+Americas,Belize,2021,0
+Africa,Cabo Verde,2021,0
+Western Pacific,China,2021,0
+Americas,El Salvador,2021,0
+Europe,Georgia,2021,0
+Eastern Mediterranean,Iran (Islamic Republic of),2021,0
+Eastern Mediterranean,Iraq,2021,0
+Europe,Kazakhstan,2021,0
+Europe,Kyrgyzstan,2021,0
+Western Pacific,Malaysia,2021,0
+Africa,Mauritius,2021,0
+Eastern Mediterranean,Morocco,2021,0
+Eastern Mediterranean,Oman,2021,0
+Americas,Paraguay,2021,0
+Eastern Mediterranean,Saudi Arabia,2021,0
+South-East Asia,Sri Lanka,2021,0
+Eastern Mediterranean,Syrian Arab Republic,2021,0
+Europe,Tajikistan,2021,0
+South-East Asia,Timor-Leste,2021,0
+Europe,Türkiye,2021,0
+Europe,Turkmenistan,2021,0
+Eastern Mediterranean,United Arab Emirates,2021,0
+Europe,Uzbekistan,2021,0
+Eastern Mediterranean,Somalia,2021,1131892
+Western Pacific,Papua New Guinea,2021,1237112
+Africa,Congo,2021,1280047
+Africa,Rwanda,2021,1700493
+Africa,Central African Republic,2021,1826551
+Africa,Liberia,2021,1852429
+Africa,Mozambique,2021,10283922
+Africa,Comoros,2021,10537
+Western Pacific,Philippines,2021,10609
+Americas,Colombia,2021,102418
+South-East Asia,Nepal,2021,106
+Africa,Botswana,2021,1067
+Africa,Uganda,2021,13023397
+Americas,Bolivia (Plurinational State of),2021,14930
+Americas,Guatemala,2021,1493
+Western Pacific,Solomon Islands,2021,151437
+Americas,Brazil,2021,162016
+Americas,Costa Rica,2021,189
+Western Pacific,Cambodia,2021,19064
+Eastern Mediterranean,Afghanistan,2021,193232
+Africa,Togo,2021,2053345
+Africa,Sierra Leone,2021,2777394
+Africa,South Sudan,2021,2953582
+Americas,Venezuela (Bolivarian Republic of),2021,204683
+Africa,Namibia,2021,21322
+Africa,Gambia,2021,213311
+Africa,Guinea-Bissau,2021,216542
+Americas,Ecuador,2021,2175
+Americas,Suriname,2021,22
+Americas,Haiti,2021,22546
+South-East Asia,Thailand,2021,2219
+Americas,Honduras,2021,2290
+Americas,Peru,2021,23250
+South-East Asia,Democratic People's Republic of Korea,2021,2357
+Americas,Mexico,2021,242
+Americas,Guyana,2021,25792
+Africa,Sao Tome and Principe,2021,2719
+Western Pacific,Republic of Korea,2021,274
+Americas,Nicaragua,2021,29457
+South-East Asia,Myanmar,2021,292857
+Africa,South Africa,2021,2958
+Eastern Mediterranean,Sudan,2021,3325874
+Africa,Kenya,2021,3419698
+Africa,Chad,2021,3506428
+Africa,Zambia,2021,3655518
+Africa,Burundi,2021,3657985
+Africa,Ethiopia,2021,3783896
+Africa,Democratic Republic of the Congo,2021,30518545
+Africa,Eswatini,2021,306
+Africa,Zimbabwe,2021,342543
+Africa,Equatorial Guinea,2021,348428
+Americas,Dominican Republic,2021,378
+South-East Asia,India,2021,4265027
+Africa,Malawi,2021,4359158
+Africa,Guinea,2021,4477687
+Africa,Madagascar,2021,4911293
+Africa,Benin,2021,4983668
+Western Pacific,Viet Nam,2021,453
+Americas,Panama,2021,4585
+Africa,Ghana,2021,5396652
+Eastern Mediterranean,Pakistan,2021,505620
+Africa,Gabon,2021,535939
+Western Pacific,Vanuatu,2021,576
+Eastern Mediterranean,Djibouti,2021,58445
+Africa,Cameroon,2021,6665957
+Western Pacific,Lao People's Democratic Republic,2021,6403
+Africa,Nigeria,2021,65399501
+Africa,Côte d’Ivoire,2021,7443146
+Africa,Mali,2021,7744735
+Africa,United Republic of Tanzania,2021,7997711
+Africa,Niger,2021,8166369
+Africa,Burkina Faso,2021,8326915
+Africa,Angola,2021,8794084
+South-East Asia,Indonesia,2021,811636
+Africa,Mauritania,2021,85030
+Americas,French Guiana,2021,86
+South-East Asia,Bangladesh,2021,8974
+South-East Asia,Bhutan,2021,9
+Africa,Eritrea,2021,92898
+Eastern Mediterranean,Yemen,2021,979967
+Africa,Senegal,2021,995763
+Africa,Algeria,2020,0
+Americas,Argentina,2020,0
+Europe,Armenia,2020,0
+Europe,Azerbaijan,2020,0
+Americas,Belize,2020,0
+Africa,Cabo Verde,2020,0
+Western Pacific,China,2020,0
+Americas,El Salvador,2020,0
+Europe,Georgia,2020,0
+Eastern Mediterranean,Iran (Islamic Republic of),2020,0
+Eastern Mediterranean,Iraq,2020,0
+Europe,Kazakhstan,2020,0
+Europe,Kyrgyzstan,2020,0
+Western Pacific,Malaysia,2020,0
+Eastern Mediterranean,Morocco,2020,0
+Eastern Mediterranean,Oman,2020,0
+Americas,Paraguay,2020,0
+South-East Asia,Sri Lanka,2020,0
+Eastern Mediterranean,Syrian Arab Republic,2020,0
+Europe,Tajikistan,2020,0
+Europe,Türkiye,2020,0
+Europe,Turkmenistan,2020,0
+Eastern Mediterranean,United Arab Emirates,2020,0
+Europe,Uzbekistan,2020,0
+Africa,Zimbabwe,2020,1152901
+Africa,Congo,2020,1304055
+Western Pacific,Papua New Guinea,2020,1470120
+Africa,Central African Republic,2020,1795225
+Africa,Liberia,2020,1914081
+Americas,Dominican Republic,2020,1019
+Americas,Colombia,2020,105996
+Americas,Honduras,2020,1098
+Western Pacific,Solomon Islands,2020,112768
+Africa,Uganda,2020,12602807
+Americas,Guatemala,2020,1241
+Western Pacific,Philippines,2020,15096
+Americas,Suriname,2020,156
+Africa,Eritrea,2020,158684
+Americas,Bolivia (Plurinational State of),2020,16506
+Americas,French Guiana,2020,164
+Western Pacific,Viet Nam,2020,1657
+Americas,Brazil,2020,167113
+Africa,Botswana,2020,1776
+South-East Asia,Democratic People's Republic of Korea,2020,1819
+Africa,Guinea-Bissau,2020,189707
+Africa,Sao Tome and Principe,2020,1933
+Americas,Ecuador,2020,1934
+Africa,Togo,2020,2049459
+Africa,Sierra Leone,2020,2795827
+Africa,Rwanda,2020,2986047
+Africa,Namibia,2020,20258
+Africa,Mauritania,2020,201771
+Americas,Panama,2020,2049
+Africa,Gambia,2020,210897
+South-East Asia,Bhutan,2020,22
+Americas,Guyana,2020,22159
+Americas,Venezuela (Bolivarian Republic of),2020,223349
+Africa,Eswatini,2020,233
+South-East Asia,Nepal,2020,244
+Eastern Mediterranean,Afghanistan,2020,253150
+Americas,Peru,2020,29745
+South-East Asia,Thailand,2020,2988
+Africa,South Sudan,2020,3042784
+Eastern Mediterranean,Sudan,2020,3261859
+Africa,Kenya,2020,3302189
+Africa,Chad,2020,3433441
+Africa,Zambia,2020,3537563
+Africa,Burundi,2020,3708079
+Africa,Democratic Republic of the Congo,2020,30103686
+Americas,Nicaragua,2020,32469
+Africa,Equatorial Guinea,2020,352514
+Americas,Mexico,2020,356
+Western Pacific,Republic of Korea,2020,356
+South-East Asia,Timor-Leste,2020,4
+Africa,Madagascar,2020,4010537
+South-East Asia,India,2020,4133982
+Africa,Ethiopia,2020,4227742
+Africa,Malawi,2020,4252631
+Africa,Guinea,2020,4416575
+Africa,Benin,2020,4781051
+Americas,Haiti,2020,40876
+Western Pacific,Cambodia,2020,43341
+Africa,South Africa,2020,4463
+Africa,Comoros,2020,4546
+Africa,Ghana,2020,5313608
+Africa,Gabon,2020,527769
+Eastern Mediterranean,Pakistan,2020,542779
+Western Pacific,Lao People's Democratic Republic,2020,5674
+Africa,Cameroon,2020,6601170
+Africa,Nigeria,2020,65133759
+Africa,Côte d’Ivoire,2020,7398482
+Africa,Mali,2020,7586538
+Africa,United Republic of Tanzania,2020,7604750
+Africa,Niger,2020,7845383
+Eastern Mediterranean,Djibouti,2020,72332
+South-East Asia,Bangladesh,2020,7545
+South-East Asia,Indonesia,2020,769298
+Africa,Burkina Faso,2020,8122685
+Africa,Angola,2020,8410016
+Eastern Mediterranean,Yemen,2020,800213
+South-East Asia,Myanmar,2020,82144
+Eastern Mediterranean,Saudi Arabia,2020,83
+Africa,Senegal,2020,835455
+Africa,Mozambique,2020,9990474
+Americas,Costa Rica,2020,90
+Western Pacific,Vanuatu,2020,910
+Eastern Mediterranean,Somalia,2020,926877
+Africa,Algeria,2019,0
+Americas,Argentina,2019,0
+Europe,Armenia,2019,0
+Europe,Azerbaijan,2019,0
+Americas,Belize,2019,0
+Africa,Cabo Verde,2019,0
+Western Pacific,China,2019,0
+Americas,El Salvador,2019,0
+Europe,Georgia,2019,0
+Eastern Mediterranean,Iran (Islamic Republic of),2019,0
+Eastern Mediterranean,Iraq,2019,0
+Europe,Kyrgyzstan,2019,0
+Western Pacific,Malaysia,2019,0
+Eastern Mediterranean,Morocco,2019,0
+Eastern Mediterranean,Oman,2019,0
+Americas,Paraguay,2019,0
+South-East Asia,Sri Lanka,2019,0
+Eastern Mediterranean,Syrian Arab Republic,2019,0
+Europe,Tajikistan,2019,0
+South-East Asia,Timor-Leste,2019,0
+Europe,Türkiye,2019,0
+Europe,Turkmenistan,2019,0
+Eastern Mediterranean,United Arab Emirates,2019,0
+Europe,Uzbekistan,2019,0
+Europe,Kazakhstan,2019,0
+Africa,Mayotte,2019,0
+Western Pacific,Papua New Guinea,2019,1124906
+Africa,Congo,2019,1324386
+Africa,Central African Republic,2019,1681948
+Africa,Liberia,2019,1954336
+Africa,Togo,2019,1966638
+Western Pacific,Lao People's Democratic Republic,2019,10541
+Americas,Suriname,2019,104
+Western Pacific,Vanuatu,2019,1047
+Africa,Gambia,2019,109975
+Africa,Uganda,2019,11282360
+Americas,Colombia,2019,119761
+Americas,Bolivia (Plurinational State of),2019,12654
+Western Pacific,Philippines,2019,13536
+Western Pacific,Solomon Islands,2019,139245
+Western Pacific,Cambodia,2019,140073
+Africa,Guinea-Bissau,2019,146986
+Americas,Dominican Republic,2019,1592
+Americas,Nicaragua,2019,16717
+Africa,Comoros,2019,17599
+Americas,Haiti,2019,17703
+Americas,Brazil,2019,178650
+Americas,Ecuador,2019,1803
+Africa,Mauritania,2019,184057
+Americas,Panama,2019,1849
+South-East Asia,Democratic People's Republic of Korea,2019,1869
+South-East Asia,Bhutan,2019,2
+Africa,Madagascar,2019,2032961
+Africa,Ethiopia,2019,2645193
+Eastern Mediterranean,Sudan,2019,2835630
+Africa,Sierra Leone,2019,2857585
+Africa,South Sudan,2019,2938499
+Africa,Eritrea,2019,200382
+South-East Asia,Bangladesh,2019,21202
+Africa,Eswatini,2019,235
+Americas,Guatemala,2019,2428
+Americas,French Guiana,2019,248
+Africa,Botswana,2019,259
+Americas,Guyana,2019,26307
+Africa,Sao Tome and Principe,2019,2732
+Africa,Democratic Republic of the Congo,2019,28830863
+Africa,Kenya,2019,3037541
+Africa,Zambia,2019,3205531
+Africa,Chad,2019,3277966
+Africa,Burundi,2019,3549058
+Africa,Malawi,2019,3867128
+Africa,Equatorial Guinea,2019,347501
+South-East Asia,Thailand,2019,3644
+Eastern Mediterranean,Saudi Arabia,2019,38
+Western Pacific,Viet Nam,2019,3856
+Africa,Guinea,2019,4425904
+Africa,Benin,2019,4937253
+Eastern Mediterranean,Afghanistan,2019,413480
+Americas,Honduras,2019,444
+Americas,Peru,2019,45729
+South-East Asia,Nepal,2019,464
+Americas,Venezuela (Bolivarian Republic of),2019,467421
+Africa,South Africa,2019,4821
+Western Pacific,Republic of Korea,2019,485
+Eastern Mediterranean,Djibouti,2019,49402
+Africa,Ghana,2019,5242734
+Africa,Rwanda,2019,5279485
+South-East Asia,India,2019,5549896
+Africa,Gabon,2019,512184
+Africa,Namibia,2019,5705
+Africa,Cameroon,2019,6246049
+Africa,Mali,2019,6863255
+Africa,Nigeria,2019,61379283
+Americas,Mexico,2019,618
+Eastern Mediterranean,Pakistan,2019,640380
+Africa,Senegal,2019,672221
+Africa,United Republic of Tanzania,2019,7040493
+Africa,Côte d’Ivoire,2019,7184054
+Africa,Angola,2019,7352473
+Africa,Burkina Faso,2019,7472680
+Africa,Niger,2019,7631511
+South-East Asia,Indonesia,2019,774340
+South-East Asia,Myanmar,2019,78326
+Africa,Zimbabwe,2019,782740
+Eastern Mediterranean,Yemen,2019,831533
+Africa,Mozambique,2019,9421431
+Americas,Costa Rica,2019,95
+Eastern Mediterranean,Somalia,2019,957015
+Africa,Algeria,2018,0
+Americas,Argentina,2018,0
+Europe,Armenia,2018,0
+Europe,Azerbaijan,2018,0
+Western Pacific,China,2018,0
+Americas,El Salvador,2018,0
+Europe,Georgia,2018,0
+Eastern Mediterranean,Iran (Islamic Republic of),2018,0
+Eastern Mediterranean,Iraq,2018,0
+Europe,Kyrgyzstan,2018,0
+Western Pacific,Malaysia,2018,0
+Eastern Mediterranean,Morocco,2018,0
+Eastern Mediterranean,Oman,2018,0
+Americas,Paraguay,2018,0
+South-East Asia,Sri Lanka,2018,0
+Eastern Mediterranean,Syrian Arab Republic,2018,0
+Europe,Tajikistan,2018,0
+South-East Asia,Timor-Leste,2018,0
+Europe,Türkiye,2018,0
+Europe,Turkmenistan,2018,0
+Eastern Mediterranean,United Arab Emirates,2018,0
+Europe,Uzbekistan,2018,0
+Europe,Kazakhstan,2018,0
+Africa,Senegal,2018,1047659
+Western Pacific,Papua New Guinea,2018,1301773
+Africa,Congo,2018,1321959
+Africa,Central African Republic,2018,1654108
+Africa,Madagascar,2018,1921403
+Africa,Liberia,2018,1966210
+Western Pacific,Philippines,2018,10900
+Africa,Uganda,2018,10905744
+South-East Asia,Myanmar,2018,108681
+Western Pacific,Vanuatu,2018,1167
+South-East Asia,Bangladesh,2018,12397
+Africa,Guinea-Bissau,2018,125653
+Africa,Comoros,2018,15186
+Western Pacific,Lao People's Democratic Republic,2018,15654
+Americas,Haiti,2018,16000
+Americas,Ecuador,2018,1653
+Africa,Gambia,2018,196160
+Africa,Cabo Verde,2018,2
+Africa,Togo,2018,2014395
+Eastern Mediterranean,Sudan,2018,2485883
+Africa,Ethiopia,2018,2793314
+Africa,South Sudan,2018,2898120
+Africa,Sierra Leone,2018,2901372
+Americas,Nicaragua,2018,20158
+Americas,Brazil,2018,218813
+Africa,Mauritania,2018,236485
+Eastern Mediterranean,Djibouti,2018,24845
+Africa,Democratic Republic of the Congo,2018,27944491
+Western Pacific,Cambodia,2018,272272
+South-East Asia,Nepal,2018,2736
+Africa,Sao Tome and Principe,2018,2937
+Americas,Belize,2018,3
+Africa,Kenya,2018,3068062
+Africa,Zambia,2018,3189765
+Africa,Chad,2018,3216108
+Africa,Burundi,2018,3315862
+Africa,Malawi,2018,3859499
+Americas,Suriname,2018,30
+Americas,Guyana,2018,30769
+Americas,Guatemala,2018,3541
+Africa,Equatorial Guinea,2018,360556
+South-East Asia,Democratic People's Republic of Korea,2018,3698
+Western Pacific,Viet Nam,2018,3777
+Africa,Guinea,2018,4508348
+Africa,Benin,2018,4872597
+South-East Asia,Thailand,2018,4454
+Americas,Venezuela (Bolivarian Republic of),2018,475212
+Africa,Gabon,2018,499577
+Africa,Ghana,2018,5314525
+Africa,Namibia,2018,50217
+Western Pacific,Republic of Korea,2018,501
+Americas,Dominican Republic,2018,534
+Americas,Peru,2018,58455
+Africa,Nigeria,2018,59652248
+South-East Asia,Bhutan,2018,6
+Africa,Mayotte,2018,6
+Africa,Rwanda,2018,6184131
+Africa,Cameroon,2018,6218960
+Africa,Angola,2018,6700267
+Africa,Côte d’Ivoire,2018,6730934
+South-East Asia,India,2018,6743582
+Africa,United Republic of Tanzania,2018,6852548
+Eastern Mediterranean,Saudi Arabia,2018,61
+Eastern Mediterranean,Afghanistan,2018,633500
+Africa,Zimbabwe,2018,634718
+Americas,French Guiana,2018,640
+South-East Asia,Indonesia,2018,662497
+Africa,Eswatini,2018,686
+Africa,Burkina Faso,2018,7280725
+Africa,Mali,2018,7710138
+Africa,Niger,2018,7760340
+Americas,Costa Rica,2018,70
+Eastern Mediterranean,Pakistan,2018,705529
+Americas,Bolivia (Plurinational State of),2018,7239
+Americas,Panama,2018,789
+Americas,Mexico,2018,803
+Africa,Botswana,2018,808
+Western Pacific,Solomon Islands,2018,86680
+Eastern Mediterranean,Yemen,2018,871031
+Africa,Mozambique,2018,9406462
+Eastern Mediterranean,Somalia,2018,913696
+Americas,Colombia,2018,93827
+Americas,Honduras,2018,933
+Africa,South Africa,2018,9562
+Africa,Eritrea,2018,99716
+Africa,Algeria,2017,0
+Americas,Argentina,2017,0
+Europe,Armenia,2017,0
+Europe,Azerbaijan,2017,0
+Western Pacific,China,2017,0
+Americas,El Salvador,2017,0
+Europe,Georgia,2017,0
+Eastern Mediterranean,Iraq,2017,0
+Europe,Kyrgyzstan,2017,0
+Eastern Mediterranean,Morocco,2017,0
+Eastern Mediterranean,Oman,2017,0
+Americas,Paraguay,2017,0
+South-East Asia,Sri Lanka,2017,0
+Eastern Mediterranean,Syrian Arab Republic,2017,0
+Europe,Tajikistan,2017,0
+Europe,Türkiye,2017,0
+Europe,Turkmenistan,2017,0
+Eastern Mediterranean,United Arab Emirates,2017,0
+Europe,Uzbekistan,2017,0
+Europe,Kazakhstan,2017,0
+Western Pacific,Papua New Guinea,2017,1230223
+Africa,Congo,2017,1238519
+Africa,Zimbabwe,2017,1337886
+Africa,Central African Republic,2017,1642425
+Africa,Liberia,2017,1939400
+Africa,Madagascar,2017,1971342
+Western Pacific,Solomon Islands,2017,103587
+South-East Asia,Bhutan,2017,11
+Africa,Uganda,2017,11833607
+Africa,Eritrea,2017,115928
+Americas,Costa Rica,2017,12
+South-East Asia,Myanmar,2017,120755
+Africa,Guinea-Bissau,2017,122291
+Americas,Ecuador,2017,1275
+Americas,Nicaragua,2017,13866
+Americas,Suriname,2017,137
+Western Pacific,Lao People's Democratic Republic,2017,14609
+Eastern Mediterranean,Djibouti,2017,14671
+Africa,Gambia,2017,148057
+Western Pacific,Philippines,2017,16586
+Americas,Honduras,2017,1716
+Eastern Mediterranean,Saudi Arabia,2017,177
+Africa,Mayotte,2017,19
+Africa,Togo,2017,2179253
+Eastern Mediterranean,Sudan,2017,2187618
+Africa,Burundi,2017,2794830
+Africa,Sierra Leone,2017,2883985
+Africa,South Sudan,2017,2960681
+Africa,Chad,2017,2961677
+Western Pacific,Cambodia,2017,202696
+South-East Asia,Timor-Leste,2017,22
+Americas,Brazil,2017,220913
+Africa,Sao Tome and Principe,2017,2239
+Western Pacific,Vanuatu,2017,2266
+Africa,South Africa,2017,23381
+Americas,Guyana,2017,25167
+Africa,Democratic Republic of the Congo,2017,25976981
+South-East Asia,Nepal,2017,2690
+Africa,Botswana,2017,2933
+Africa,Kenya,2017,3155636
+Africa,Zambia,2017,3204416
+Africa,Malawi,2017,3911675
+Africa,Mauritania,2017,306475
+Africa,Comoros,2017,3230
+Americas,Haiti,2017,33122
+South-East Asia,Bangladesh,2017,33331
+Africa,Equatorial Guinea,2017,380328
+Africa,Guinea,2017,4377224
+Africa,Benin,2017,4876484
+Americas,Dominican Republic,2017,420
+Africa,Cabo Verde,2017,423
+Western Pacific,Republic of Korea,2017,436
+South-East Asia,Thailand,2017,4393
+Africa,Eswatini,2017,440
+South-East Asia,Democratic People's Republic of Korea,2017,4603
+Americas,Venezuela (Bolivarian Republic of),2017,482617
+Americas,Guatemala,2017,4832
+Africa,Gabon,2017,488279
+Africa,Ghana,2017,5991625
+Western Pacific,Viet Nam,2017,5485
+Eastern Mediterranean,Iran (Islamic Republic of),2017,57
+Africa,Nigeria,2017,57869533
+Africa,Cameroon,2017,6151314
+Africa,Côte d’Ivoire,2017,6229084
+Africa,Angola,2017,6312055
+Africa,Ethiopia,2017,6600689
+Americas,Bolivia (Plurinational State of),2017,6195
+Americas,French Guiana,2017,685
+Americas,Belize,2017,7
+Africa,United Republic of Tanzania,2017,7003374
+Africa,Burkina Faso,2017,7093584
+Africa,Mali,2017,7469199
+Africa,Niger,2017,7883346
+Americas,Peru,2017,72752
+Americas,Mexico,2017,736
+South-East Asia,Indonesia,2017,744237
+Eastern Mediterranean,Yemen,2017,747173
+Eastern Mediterranean,Afghanistan,2017,798871
+Africa,Rwanda,2017,8681013
+Americas,Colombia,2017,80963
+Americas,Panama,2017,801
+Africa,Senegal,2017,805691
+Eastern Mediterranean,Pakistan,2017,819944
+Eastern Mediterranean,Somalia,2017,820464
+Western Pacific,Malaysia,2017,85
+Africa,Namibia,2017,89155
+South-East Asia,India,2017,9333319
+Africa,Mozambique,2017,9422965
+Africa,Algeria,2016,0
+Americas,Argentina,2016,0
+Europe,Armenia,2016,0
+Europe,Azerbaijan,2016,0
+Europe,Georgia,2016,0
+Europe,Kyrgyzstan,2016,0
+Eastern Mediterranean,Morocco,2016,0
+Eastern Mediterranean,Oman,2016,0
+Americas,Paraguay,2016,0
+South-East Asia,Sri Lanka,2016,0
+Eastern Mediterranean,Syrian Arab Republic,2016,0
+Europe,Tajikistan,2016,0
+Europe,Türkiye,2016,0
+Europe,Turkmenistan,2016,0
+Eastern Mediterranean,United Arab Emirates,2016,0
+Europe,Uzbekistan,2016,0
+Europe,Kazakhstan,2016,0
+Western Pacific,China,2016,1
+Eastern Mediterranean,Pakistan,2016,1017237
+South-East Asia,Indonesia,2016,1087349
+Africa,Congo,2016,1126282
+Western Pacific,Papua New Guinea,2016,1208966
+Africa,Madagascar,2016,1408501
+Africa,Central African Republic,2016,1638585
+Africa,Liberia,2016,1773971
+Africa,Uganda,2016,10971082
+South-East Asia,Timor-Leste,2016,112
+Africa,Comoros,2016,1143
+Americas,Colombia,2016,115550
+Americas,Ecuador,2016,1191
+Americas,El Salvador,2016,12
+South-East Asia,India,2016,12411360
+Western Pacific,Cambodia,2016,124137
+Eastern Mediterranean,Djibouti,2016,13822
+Americas,Brazil,2016,132022
+Africa,Guinea-Bissau,2016,139154
+South-East Asia,Bhutan,2016,15
+South-East Asia,Myanmar,2016,162032
+Western Pacific,Philippines,2016,17308
+Americas,Guyana,2016,19317
+Eastern Mediterranean,Sudan,2016,2097220
+Africa,Togo,2016,2488548
+Africa,Burundi,2016,2526223
+Africa,Chad,2016,2812456
+Africa,Sierra Leone,2016,2914796
+Africa,South Sudan,2016,2949646
+Africa,Sao Tome and Principe,2016,2238
+Africa,Democratic Republic of the Congo,2016,24224130
+Africa,Eswatini,2016,250
+Western Pacific,Lao People's Democratic Republic,2016,26862
+Western Pacific,Malaysia,2016,266
+Americas,French Guiana,2016,268
+Eastern Mediterranean,Saudi Arabia,2016,272
+Americas,Venezuela (Bolivarian Republic of),2016,281897
+Africa,Gambia,2016,297058
+Africa,Kenya,2016,3191546
+Africa,Zambia,2016,3453634
+Africa,Malawi,2016,3949459
+South-East Asia,Bangladesh,2016,31621
+Africa,Namibia,2016,32052
+South-East Asia,Nepal,2016,3353
+Africa,Mayotte,2016,35
+Americas,Haiti,2016,36279
+Africa,Mauritania,2016,386314
+Africa,Equatorial Guinea,2016,397276
+Americas,Belize,2016,4
+Americas,Costa Rica,2016,4
+Africa,Guinea,2016,4297908
+Africa,Benin,2016,4721694
+Africa,Rwanda,2016,4887836
+Western Pacific,Vanuatu,2016,4173
+Africa,South Africa,2016,4323
+Africa,Gabon,2016,476346
+Africa,Cabo Verde,2016,49
+Eastern Mediterranean,Iraq,2016,5
+Africa,Angola,2016,5523430
+Africa,Côte d’Ivoire,2016,5867998
+Western Pacific,Viet Nam,2016,5024
+South-East Asia,Democratic People's Republic of Korea,2016,5033
+Africa,Nigeria,2016,55667334
+Americas,Mexico,2016,551
+Americas,Honduras,2016,5519
+Americas,Guatemala,2016,5857
+Africa,Cameroon,2016,6126789
+Africa,Ghana,2016,6953304
+Western Pacific,Republic of Korea,2016,602
+Eastern Mediterranean,Yemen,2016,661252
+Africa,Senegal,2016,684129
+Africa,United Republic of Tanzania,2016,7151258
+Africa,Mali,2016,7184988
+Africa,Burkina Faso,2016,7215226
+Americas,Peru,2016,72836
+Eastern Mediterranean,Afghanistan,2016,733205
+Americas,Bolivia (Plurinational State of),2016,7510
+Africa,Zimbabwe,2016,760626
+South-East Asia,Thailand,2016,7727
+Americas,Suriname,2016,78
+Americas,Nicaragua,2016,7943
+Africa,Niger,2016,8053568
+Africa,Ethiopia,2016,8922403
+Americas,Panama,2016,809
+Eastern Mediterranean,Iran (Islamic Republic of),2016,81
+Eastern Mediterranean,Somalia,2016,837484
+Western Pacific,Solomon Islands,2016,84179
+Americas,Dominican Republic,2016,851
+Africa,Eritrea,2016,86561
+Africa,Mozambique,2016,9501504
+Africa,Botswana,2016,985
+Africa,Algeria,2015,0
+Americas,Argentina,2015,0
+Europe,Armenia,2015,0
+Europe,Azerbaijan,2015,0
+Americas,Costa Rica,2015,0
+Europe,Georgia,2015,0
+Eastern Mediterranean,Iraq,2015,0
+Europe,Kyrgyzstan,2015,0
+Eastern Mediterranean,Morocco,2015,0
+Eastern Mediterranean,Oman,2015,0
+Americas,Paraguay,2015,0
+South-East Asia,Sri Lanka,2015,0
+Eastern Mediterranean,Syrian Arab Republic,2015,0
+Europe,Tajikistan,2015,0
+Europe,Türkiye,2015,0
+Europe,Turkmenistan,2015,0
+Eastern Mediterranean,United Arab Emirates,2015,0
+Europe,Uzbekistan,2015,0
+Europe,Kazakhstan,2015,0
+Eastern Mediterranean,Pakistan,2015,1000339
+Africa,Senegal,2015,1010929
+South-East Asia,Indonesia,2015,1039394
+Africa,Zimbabwe,2015,1067121
+Africa,Congo,2015,1068094
+Africa,Liberia,2015,1591767
+Eastern Mediterranean,Sudan,2015,1611298
+Africa,Central African Republic,2015,1669623
+Western Pacific,Viet Nam,2015,11283
+South-East Asia,India,2015,11856993
+South-East Asia,Timor-Leste,2015,110
+Africa,Ethiopia,2015,12528267
+Africa,Comoros,2015,1300
+South-East Asia,Thailand,2015,14265
+Africa,Namibia,2015,15052
+Americas,Venezuela (Bolivarian Republic of),2015,159661
+Africa,Guinea-Bissau,2015,161401
+Americas,Brazil,2015,164589
+Eastern Mediterranean,Iran (Islamic Republic of),2015,167
+Americas,Guyana,2015,18030
+Africa,Mayotte,2015,2
+Africa,Burundi,2015,2144520
+Africa,Madagascar,2015,2345948
+Africa,Togo,2015,2669469
+Africa,Chad,2015,2681805
+Africa,Sierra Leone,2015,2857523
+Africa,Sao Tome and Principe,2015,2056
+Western Pacific,Cambodia,2015,218837
+Africa,Democratic Republic of the Congo,2015,23263844
+Western Pacific,Malaysia,2015,242
+Western Pacific,Philippines,2015,27904
+South-East Asia,Myanmar,2015,271652
+Americas,Nicaragua,2015,2886
+Africa,Mauritania,2015,291679
+Africa,South Sudan,2015,3033662
+Africa,Kenya,2015,3319230
+Africa,Zambia,2015,3563606
+Africa,Rwanda,2015,3585563
+Africa,Eswatini,2015,318
+Americas,Haiti,2015,32185
+South-East Asia,Bhutan,2015,34
+Eastern Mediterranean,Afghanistan,2015,368235
+Western Pacific,China,2015,39
+Western Pacific,Solomon Islands,2015,39811
+Africa,Malawi,2015,4106623
+Africa,Benin,2015,4260585
+Africa,Guinea,2015,4402690
+Africa,Angola,2015,4969705
+Africa,Equatorial Guinea,2015,406082
+South-East Asia,Nepal,2015,4370
+South-East Asia,Bangladesh,2015,45478
+Africa,Gambia,2015,450479
+Africa,Botswana,2015,455
+Americas,French Guiana,2015,462
+Africa,Gabon,2015,473905
+Americas,Honduras,2015,4792
+Africa,South Africa,2015,4959
+Americas,El Salvador,2015,5
+Africa,Côte d’Ivoire,2015,5658630
+Africa,Cameroon,2015,5996035
+Eastern Mediterranean,Yemen,2015,513816
+Americas,Mexico,2015,517
+Africa,Nigeria,2015,54115123
+Americas,Panama,2015,575
+Americas,Ecuador,2015,618
+Western Pacific,Lao People's Democratic Republic,2015,62489
+Western Pacific,Republic of Korea,2015,627
+Africa,Eritrea,2015,64020
+Americas,Guatemala,2015,6482
+Africa,Cabo Verde,2015,7
+Africa,Mali,2015,7097168
+Africa,United Republic of Tanzania,2015,7382963
+Africa,Burkina Faso,2015,7848131
+Africa,Ghana,2015,7999986
+South-East Asia,Democratic People's Republic of Korea,2015,7022
+Americas,Dominican Republic,2015,778
+Africa,Niger,2015,8073585
+Western Pacific,Vanuatu,2015,807
+Americas,Suriname,2015,81
+Eastern Mediterranean,Somalia,2015,811764
+Eastern Mediterranean,Saudi Arabia,2015,83
+Americas,Colombia,2015,84841
+Americas,Peru,2015,86896
+Western Pacific,Papua New Guinea,2015,884727
+Americas,Belize,2015,9
+Africa,Mozambique,2015,9403454
+Africa,Uganda,2015,9501063
+Americas,Bolivia (Plurinational State of),2015,9315
+Eastern Mediterranean,Djibouti,2015,9473
+Africa,Algeria,2014,0
+Americas,Argentina,2014,0
+Europe,Armenia,2014,0
+Europe,Azerbaijan,2014,0
+Americas,Costa Rica,2014,0
+Europe,Georgia,2014,0
+Eastern Mediterranean,Iraq,2014,0
+Europe,Kyrgyzstan,2014,0
+Eastern Mediterranean,Morocco,2014,0
+Eastern Mediterranean,Oman,2014,0
+Americas,Paraguay,2014,0
+South-East Asia,Sri Lanka,2014,0
+Eastern Mediterranean,Syrian Arab Republic,2014,0
+Europe,Türkiye,2014,0
+Europe,Turkmenistan,2014,0
+Eastern Mediterranean,United Arab Emirates,2014,0
+Europe,Uzbekistan,2014,0
+Europe,Kazakhstan,2014,0
+Africa,Mayotte,2014,1
+Africa,Congo,2014,1053862
+Africa,Madagascar,2014,1078280
+Africa,Zimbabwe,2014,1093059
+South-East Asia,Indonesia,2014,1163077
+Eastern Mediterranean,Sudan,2014,1427317
+Africa,Liberia,2014,1506350
+Western Pacific,Papua New Guinea,2014,1613869
+Africa,Central African Republic,2014,1740283
+Africa,Burundi,2014,1916653
+South-East Asia,Democratic People's Republic of Korea,2014,10535
+Africa,Uganda,2014,10693203
+Americas,Bolivia (Plurinational State of),2014,10994
+Americas,Panama,2014,1005
+Americas,Venezuela (Bolivarian Republic of),2014,106079
+Africa,Eritrea,2014,109689
+South-East Asia,India,2014,11138430
+Africa,South Africa,2014,11705
+Western Pacific,Philippines,2014,14318
+Africa,Ethiopia,2014,14339644
+Americas,Nicaragua,2014,1446
+Americas,Brazil,2014,146599
+Africa,Sao Tome and Principe,2014,1754
+Africa,Guinea-Bissau,2014,186564
+Americas,Belize,2014,19
+South-East Asia,Bhutan,2014,19
+Western Pacific,Viet Nam,2014,19060
+Europe,Tajikistan,2014,2
+Africa,Rwanda,2014,2299121
+Africa,Chad,2014,2584781
+Africa,Togo,2014,2688180
+Africa,Sierra Leone,2014,2868023
+Africa,Botswana,2014,2076
+Africa,Mauritania,2014,216687
+Americas,Guyana,2014,22310
+Africa,Comoros,2014,2203
+Africa,Democratic Republic of the Congo,2014,23381296
+Western Pacific,Cambodia,2014,240449
+Americas,Ecuador,2014,242
+Western Pacific,Vanuatu,2014,2427
+Africa,Namibia,2014,25780
+Africa,Cabo Verde,2014,26
+Africa,South Sudan,2014,3098291
+Africa,Kenya,2014,3312249
+Africa,Zambia,2014,3656181
+Africa,Benin,2014,3917119
+Eastern Mediterranean,Saudi Arabia,2014,30
+Africa,Gambia,2014,303721
+Eastern Mediterranean,Afghanistan,2014,319142
+Americas,Haiti,2014,33119
+Western Pacific,Solomon Islands,2014,34803
+Eastern Mediterranean,Iran (Islamic Republic of),2014,358
+South-East Asia,Myanmar,2014,383705
+Africa,Eswatini,2014,389
+Africa,Equatorial Guinea,2014,397146
+Africa,Malawi,2014,4353265
+Africa,Guinea,2014,4460552
+Africa,Angola,2014,4524454
+Americas,Suriname,2014,401
+South-East Asia,Thailand,2014,41218
+Americas,Honduras,2014,4553
+South-East Asia,Timor-Leste,2014,473
+Africa,Gabon,2014,473210
+South-East Asia,Nepal,2014,4912
+Africa,Cameroon,2014,5825479
+Africa,Côte d’Ivoire,2014,5955704
+Western Pacific,China,2014,53
+Africa,Nigeria,2014,53483458
+Africa,Senegal,2014,532782
+Americas,French Guiana,2014,541
+Western Pacific,Republic of Korea,2014,557
+Americas,Dominican Republic,2014,566
+Americas,Colombia,2014,57024
+Americas,Guatemala,2014,5764
+Eastern Mediterranean,Yemen,2014,587292
+Western Pacific,Malaysia,2014,596
+Americas,El Salvador,2014,6
+Americas,Mexico,2014,656
+South-East Asia,Bangladesh,2014,66274
+Eastern Mediterranean,Somalia,2014,668820
+Africa,United Republic of Tanzania,2014,7267262
+Africa,Mali,2014,7740479
+Africa,Niger,2014,7880779
+Africa,Burkina Faso,2014,8132937
+Africa,Ghana,2014,8867522
+Americas,Peru,2014,83936
+Western Pacific,Lao People's Democratic Republic,2014,87770
+Africa,Mozambique,2014,9315947
+Eastern Mediterranean,Djibouti,2014,9439
+Eastern Mediterranean,Pakistan,2014,994600
+Americas,Argentina,2013,0
+Europe,Armenia,2013,0
+Europe,Azerbaijan,2013,0
+Americas,Costa Rica,2013,0
+Europe,Georgia,2013,0
+Eastern Mediterranean,Iraq,2013,0
+Europe,Kyrgyzstan,2013,0
+Eastern Mediterranean,Morocco,2013,0
+Eastern Mediterranean,Oman,2013,0
+Americas,Paraguay,2013,0
+South-East Asia,Sri Lanka,2013,0
+Eastern Mediterranean,Syrian Arab Republic,2013,0
+Europe,Türkiye,2013,0
+Europe,Turkmenistan,2013,0
+Eastern Mediterranean,United Arab Emirates,2013,0
+Europe,Uzbekistan,2013,0
+Europe,Kazakhstan,2013,0
+Africa,Mayotte,2013,1
+Africa,Congo,2013,1058288
+Africa,Rwanda,2013,1214623
+Eastern Mediterranean,Sudan,2013,1257489
+Eastern Mediterranean,Pakistan,2013,1381009
+Africa,Liberia,2013,1381944
+Western Pacific,Papua New Guinea,2013,1420220
+Africa,Madagascar,2013,1497292
+South-East Asia,Indonesia,2013,1529542
+Africa,Burundi,2013,1778478
+Africa,Central African Republic,2013,1782614
+South-East Asia,Nepal,2013,10164
+Americas,Bolivia (Plurinational State of),2013,10906
+South-East Asia,India,2013,10943831
+Africa,Mauritania,2013,101247
+Americas,French Guiana,2013,1025
+Western Pacific,Malaysia,2013,1028
+Africa,Uganda,2013,11722973
+South-East Asia,Democratic People's Republic of Korea,2013,14407
+South-East Asia,Timor-Leste,2013,1418
+Americas,Nicaragua,2013,1471
+South-East Asia,Bhutan,2013,15
+Africa,Ethiopia,2013,15281540
+Western Pacific,Cambodia,2013,168806
+Eastern Mediterranean,Djibouti,2013,1684
+Western Pacific,Philippines,2013,17518
+Americas,Brazil,2013,197679
+Africa,Chad,2013,2516380
+Africa,Togo,2013,2609672
+Africa,Sierra Leone,2013,2921184
+Americas,Belize,2013,20
+Western Pacific,Viet Nam,2013,20760
+Africa,Guinea-Bissau,2013,208894
+Africa,Cabo Verde,2013,22
+Africa,Democratic Republic of the Congo,2013,23984116
+Eastern Mediterranean,Afghanistan,2013,279634
+Africa,South Sudan,2013,3173418
+Africa,Kenya,2013,3232499
+Africa,Zambia,2013,3467685
+Africa,Benin,2013,3753591
+South-East Asia,Bangladesh,2013,31594
+Eastern Mediterranean,Saudi Arabia,2013,34
+Americas,Ecuador,2013,368
+Africa,Equatorial Guinea,2013,382479
+Western Pacific,Republic of Korea,2013,383
+Europe,Tajikistan,2013,4
+Africa,Angola,2013,4201780
+Africa,Guinea,2013,4568741
+Africa,Malawi,2013,4685666
+South-East Asia,Thailand,2013,41602
+Africa,Gambia,2013,429429
+Africa,Gabon,2013,475337
+Eastern Mediterranean,Iran (Islamic Republic of),2013,480
+Africa,Eritrea,2013,49309
+Americas,Mexico,2013,495
+Africa,Cameroon,2013,5667877
+Americas,Suriname,2013,525
+Africa,Comoros,2013,53156
+Western Pacific,Solomon Islands,2013,53689
+Africa,Nigeria,2013,53921321
+Western Pacific,Vanuatu,2013,5326
+Eastern Mediterranean,Somalia,2013,534460
+Americas,Guyana,2013,57459
+Americas,El Salvador,2013,6
+Africa,United Republic of Tanzania,2013,6440590
+Africa,Côte d’Ivoire,2013,6533301
+South-East Asia,Myanmar,2013,611838
+Americas,Dominican Republic,2013,613
+Americas,Haiti,2013,62551
+Americas,Peru,2013,62669
+Western Pacific,Lao People's Democratic Republic,2013,68570
+Africa,Mali,2013,7699696
+Africa,Niger,2013,7717689
+Eastern Mediterranean,Yemen,2013,700432
+Americas,Colombia,2013,72346
+Americas,Honduras,2013,7231
+Africa,Botswana,2013,725
+Africa,Eswatini,2013,728
+Americas,Guatemala,2013,7282
+Americas,Panama,2013,740
+Africa,Namibia,2013,7844
+Africa,Senegal,2013,793415
+Africa,Algeria,2013,8
+Africa,Burkina Faso,2013,8620220
+Western Pacific,China,2013,83
+Africa,Zimbabwe,2013,863692
+Africa,South Africa,2013,8645
+Africa,Mozambique,2013,9291989
+Africa,Ghana,2013,9540098
+Americas,Venezuela (Bolivarian Republic of),2013,92159
+Africa,Sao Tome and Principe,2013,9243
+Americas,Argentina,2012,0
+Europe,Armenia,2012,0
+Europe,Georgia,2012,0
+Eastern Mediterranean,Iraq,2012,0
+Europe,Kyrgyzstan,2012,0
+Eastern Mediterranean,Morocco,2012,0
+Eastern Mediterranean,Oman,2012,0
+Americas,Paraguay,2012,0
+Eastern Mediterranean,Syrian Arab Republic,2012,0
+Europe,Türkiye,2012,0
+Europe,Turkmenistan,2012,0
+Eastern Mediterranean,United Arab Emirates,2012,0
+Europe,Uzbekistan,2012,0
+Europe,Kazakhstan,2012,0
+Africa,Cabo Verde,2012,1
+Africa,Congo,2012,1020805
+Eastern Mediterranean,Sudan,2012,1162568
+Western Pacific,Papua New Guinea,2012,1249648
+Africa,Liberia,2012,1328628
+Africa,Madagascar,2012,1594592
+Africa,Burundi,2012,1628919
+Eastern Mediterranean,Pakistan,2012,1652576
+South-East Asia,Myanmar,2012,1754334
+South-East Asia,Indonesia,2012,1797022
+Africa,Central African Republic,2012,1802996
+Americas,Bolivia (Plurinational State of),2012,10048
+Americas,French Guiana,2012,1054
+Africa,Sao Tome and Principe,2012,12550
+Africa,Uganda,2012,12905814
+Americas,Dominican Republic,2012,1232
+Americas,El Salvador,2012,13
+Africa,Ethiopia,2012,13064346
+South-East Asia,Nepal,2012,13662
+South-East Asia,India,2012,14056674
+Americas,Nicaragua,2012,1564
+Western Pacific,Philippines,2012,19171
+Africa,Togo,2012,2295985
+Africa,Chad,2012,2581469
+Africa,Zambia,2012,2954071
+Africa,Sierra Leone,2012,2986182
+South-East Asia,Democratic People's Republic of Korea,2012,21850
+Africa,Guinea-Bissau,2012,213019
+Eastern Mediterranean,Afghanistan,2012,220653
+Eastern Mediterranean,Djibouti,2012,2226
+South-East Asia,Sri Lanka,2012,23
+Western Pacific,Viet Nam,2012,23838
+Africa,Democratic Republic of the Congo,2012,24531464
+Western Pacific,China,2012,244
+Americas,Brazil,2012,258095
+Western Pacific,Cambodia,2012,260016
+Europe,Tajikistan,2012,28
+Europe,Azerbaijan,2012,3
+Africa,Kenya,2012,3052340
+Africa,South Sudan,2012,3079924
+Africa,Benin,2012,3650774
+Africa,Angola,2012,3884445
+Africa,Botswana,2012,304
+Americas,Belize,2012,33
+Africa,Equatorial Guinea,2012,343007
+South-East Asia,Bangladesh,2012,35375
+Western Pacific,Malaysia,2012,3662
+Western Pacific,Republic of Korea,2012,394
+Africa,Guinea,2012,4696591
+Americas,Peru,2012,40437
+Africa,Eswatini,2012,409
+Americas,Guyana,2012,43572
+Eastern Mediterranean,Somalia,2012,433472
+South-East Asia,Thailand,2012,46895
+Africa,Gabon,2012,473866
+Africa,Comoros,2012,49840
+Africa,Malawi,2012,5053353
+Africa,Cameroon,2012,5418988
+Africa,United Republic of Tanzania,2012,5841953
+Western Pacific,Solomon Islands,2012,52221
+Africa,Eritrea,2012,52483
+Africa,Gambia,2012,523991
+Africa,Mayotte,2012,53
+Americas,Ecuador,2012,544
+Africa,Namibia,2012,5465
+Africa,Algeria,2012,55
+Africa,Nigeria,2012,55718235
+Americas,Suriname,2012,569
+Africa,Zimbabwe,2012,592559
+Americas,Costa Rica,2012,6
+Americas,Venezuela (Bolivarian Republic of),2012,61850
+Americas,Guatemala,2012,6262
+Africa,Rwanda,2012,646386
+Americas,Haiti,2012,65545
+Africa,South Africa,2012,6621
+Africa,Mali,2012,7194633
+Africa,Niger,2012,7633594
+Africa,Senegal,2012,706020
+South-East Asia,Timor-Leste,2012,7263
+Eastern Mediterranean,Iran (Islamic Republic of),2012,756
+Western Pacific,Lao People's Democratic Republic,2012,79939
+Africa,Côte d’Ivoire,2012,8330987
+South-East Asia,Bhutan,2012,82
+Eastern Mediterranean,Saudi Arabia,2012,82
+Americas,Mexico,2012,833
+Western Pacific,Vanuatu,2012,8394
+Americas,Colombia,2012,84176
+Eastern Mediterranean,Yemen,2012,860962
+Americas,Honduras,2012,8680
+Africa,Mauritania,2012,88074
+Americas,Panama,2012,888
+Africa,Mozambique,2012,9032885
+Africa,Burkina Faso,2012,9159529
+Africa,Ghana,2012,9977648
+Americas,Argentina,2011,0
+Europe,Armenia,2011,0
+Europe,Georgia,2011,0
+Eastern Mediterranean,Iraq,2011,0
+Europe,Kyrgyzstan,2011,0
+Eastern Mediterranean,Morocco,2011,0
+Eastern Mediterranean,Oman,2011,0
+Eastern Mediterranean,Syrian Arab Republic,2011,0
+Europe,Türkiye,2011,0
+Europe,Turkmenistan,2011,0
+Eastern Mediterranean,United Arab Emirates,2011,0
+Europe,Uzbekistan,2011,0
+Europe,Kazakhstan,2011,0
+Africa,Algeria,2011,1
+Americas,Paraguay,2011,1
+Eastern Mediterranean,Sudan,2011,1120801
+South-East Asia,Myanmar,2011,1326603
+Africa,Liberia,2011,1354061
+Africa,Burundi,2011,1560776
+South-East Asia,Indonesia,2011,1811566
+Africa,Central African Republic,2011,1825670
+Eastern Mediterranean,Pakistan,2011,1905938
+Americas,Costa Rica,2011,10
+Americas,Honduras,2011,10269
+Africa,Ethiopia,2011,10953634
+Western Pacific,Vanuatu,2011,11631
+Americas,Mexico,2011,1124
+Americas,Nicaragua,2011,1171
+Americas,Ecuador,2011,1219
+South-East Asia,Sri Lanka,2011,124
+Africa,Uganda,2011,13141152
+Western Pacific,China,2011,1308
+Americas,French Guiana,2011,1413
+South-East Asia,Democratic People's Republic of Korea,2011,16760
+Africa,Mauritania,2011,162490
+Eastern Mediterranean,Iran (Islamic Republic of),2011,1632
+South-East Asia,India,2011,17298372
+South-East Asia,Nepal,2011,18512
+South-East Asia,Bhutan,2011,194
+Africa,Togo,2011,2034724
+Africa,Zambia,2011,2575149
+Africa,Chad,2011,2680861
+Africa,Kenya,2011,2844501
+Africa,South Sudan,2011,2979272
+Western Pacific,Viet Nam,2011,20206
+Americas,Dominican Republic,2011,2088
+Africa,Guinea-Bissau,2011,212103
+Eastern Mediterranean,Djibouti,2011,2185
+Western Pacific,Philippines,2011,23918
+Africa,Comoros,2011,24856
+South-East Asia,Thailand,2011,24897
+Africa,Democratic Republic of the Congo,2011,25108174
+Americas,Brazil,2011,284024
+Africa,Sierra Leone,2011,3009591
+Africa,Benin,2011,3703932
+Africa,Angola,2011,3812871
+Western Pacific,Lao People's Democratic Republic,2011,30366
+South-East Asia,Timor-Leste,2011,30828
+Americas,Peru,2011,30924
+Africa,Equatorial Guinea,2011,306229
+Africa,Namibia,2011,3092
+Eastern Mediterranean,Afghanistan,2011,362319
+Western Pacific,Cambodia,2011,368041
+Americas,Panama,2011,372
+Africa,Eswatini,2011,379
+Americas,Guyana,2011,38863
+Africa,Rwanda,2011,390611
+Western Pacific,Malaysia,2011,3954
+Europe,Azerbaijan,2011,4
+Africa,Guinea,2011,4565610
+Eastern Mediterranean,Somalia,2011,419303
+Africa,Gabon,2011,452439
+Africa,Gambia,2011,473874
+Africa,Cameroon,2011,5451139
+Africa,Malawi,2011,5570026
+Africa,United Republic of Tanzania,2011,5992159
+Western Pacific,Republic of Korea,2011,505
+Americas,Venezuela (Bolivarian Republic of),2011,53565
+Africa,Nigeria,2011,58184509
+Africa,Mali,2011,6491808
+Western Pacific,Solomon Islands,2011,62676
+Africa,Senegal,2011,626038
+South-East Asia,Bangladesh,2011,63432
+Africa,Botswana,2011,682
+Eastern Mediterranean,Saudi Arabia,2011,69
+Africa,Cabo Verde,2011,7
+Americas,El Salvador,2011,7
+Africa,Niger,2011,7283090
+Americas,Belize,2011,72
+Africa,Zimbabwe,2011,722030
+Africa,Eritrea,2011,76678
+Europe,Tajikistan,2011,78
+Eastern Mediterranean,Yemen,2011,792771
+Americas,Suriname,2011,795
+Americas,Guatemala,2011,7968
+Africa,Mozambique,2011,8783904
+Americas,Haiti,2011,81483
+Africa,Madagascar,2011,823538
+Africa,Sao Tome and Principe,2011,8442
+Africa,Mayotte,2011,89
+Western Pacific,Papua New Guinea,2011,899054
+Africa,Burkina Faso,2011,9242057
+Africa,Côte d’Ivoire,2011,9963140
+Africa,Ghana,2011,9973490
+Americas,Colombia,2011,90130
+Americas,Bolivia (Plurinational State of),2011,9680
+Africa,South Africa,2011,9866
+Africa,Congo,2011,987985
+Europe,Armenia,2010,0
+Europe,Georgia,2010,0
+Eastern Mediterranean,Iraq,2010,0
+Eastern Mediterranean,Morocco,2010,0
+Eastern Mediterranean,Oman,2010,0
+Eastern Mediterranean,Syrian Arab Republic,2010,0
+Europe,Türkiye,2010,0
+Europe,Turkmenistan,2010,0
+Eastern Mediterranean,United Arab Emirates,2010,0
+Europe,Kazakhstan,2010,0
+Africa,Algeria,2010,1
+Western Pacific,Papua New Guinea,2010,1079284
+Africa,Rwanda,2010,1079765
+Africa,Zimbabwe,2010,1097776
+Eastern Mediterranean,Sudan,2010,1104287
+Eastern Mediterranean,Yemen,2010,1131912
+Africa,Liberia,2010,1354819
+Eastern Mediterranean,Pakistan,2010,1445704
+South-East Asia,Myanmar,2010,1507212
+Africa,Burundi,2010,1544609
+Africa,Central African Republic,2010,1843530
+Africa,Togo,2010,1984921
+South-East Asia,Indonesia,2010,1991459
+Africa,Ethiopia,2010,10362488
+Eastern Mediterranean,Djibouti,2010,1010
+Americas,Costa Rica,2010,110
+Europe,Tajikistan,2010,112
+Americas,Mexico,2010,1226
+Africa,Mauritania,2010,123348
+Western Pacific,Republic of Korea,2010,1267
+Africa,Uganda,2010,13241888
+Americas,Honduras,2010,13308
+South-East Asia,Democratic People's Republic of Korea,2010,13520
+Americas,Belize,2010,150
+Americas,Colombia,2010,164564
+Americas,El Salvador,2010,17
+Americas,Suriname,2010,1771
+Americas,Bolivia (Plurinational State of),2010,18659
+Eastern Mediterranean,Iran (Islamic Republic of),2010,1847
+Americas,Ecuador,2010,1888
+Africa,Guinea-Bissau,2010,198836
+Africa,Zambia,2010,2323628
+Africa,Kenya,2010,2696154
+Africa,South Sudan,2010,2775374
+Africa,Chad,2010,2777637
+Africa,Sierra Leone,2010,2977797
+Americas,Paraguay,2010,20
+South-East Asia,India,2010,20241628
+Western Pacific,Vanuatu,2010,20972
+Americas,French Guiana,2010,2092
+Western Pacific,Viet Nam,2010,22959
+Africa,Botswana,2010,2229
+Africa,Democratic Republic of the Congo,2010,25886795
+Africa,Namibia,2010,2590
+Africa,Eswatini,2010,268
+Eastern Mediterranean,Saudi Arabia,2010,29
+Americas,Guyana,2010,29631
+Eastern Mediterranean,Afghanistan,2010,292015
+Africa,Equatorial Guinea,2010,293402
+Europe,Kyrgyzstan,2010,3
+Europe,Uzbekistan,2010,3
+Africa,Benin,2010,3862955
+South-East Asia,Nepal,2010,30196
+Africa,Sao Tome and Principe,2010,3146
+South-East Asia,Thailand,2010,32480
+Americas,Dominican Republic,2010,3202
+Western Pacific,Cambodia,2010,353293
+Africa,Comoros,2010,36538
+Americas,Peru,2010,37847
+Americas,Brazil,2010,390024
+Africa,Angola,2010,4035439
+Africa,Guinea,2010,4320306
+Africa,Gabon,2010,400246
+Africa,Mayotte,2010,412
+Western Pacific,Lao People's Democratic Republic,2010,43766
+South-East Asia,Bhutan,2010,436
+Americas,Panama,2010,440
+Africa,Gambia,2010,447124
+Africa,Cabo Verde,2010,47
+Western Pacific,China,2010,4990
+Africa,Malawi,2010,5615374
+Africa,Cameroon,2010,5688134
+Africa,Mali,2010,5957047
+Europe,Azerbaijan,2010,50
+Eastern Mediterranean,Somalia,2010,500313
+Western Pacific,Malaysia,2010,5194
+Western Pacific,Philippines,2010,53512
+Americas,Argentina,2010,54
+Americas,Venezuela (Bolivarian Republic of),2010,57905
+Africa,United Republic of Tanzania,2010,6350485
+Africa,Niger,2010,6785885
+Africa,Nigeria,2010,60551056
+South-East Asia,Sri Lanka,2010,684
+South-East Asia,Bangladesh,2010,69307
+Africa,Senegal,2010,763134
+Africa,Mozambique,2010,8660053
+Africa,South Africa,2010,8060
+Africa,Eritrea,2010,83471
+Americas,Haiti,2010,84993
+Americas,Nicaragua,2010,876
+Africa,Madagascar,2010,893540
+Africa,Burkina Faso,2010,9194223
+Africa,Ghana,2010,9571242
+Africa,Côte d’Ivoire,2010,9969293
+Western Pacific,Solomon Islands,2010,91425
+Americas,Guatemala,2010,9468
+South-East Asia,Timor-Leste,2010,95412
+Africa,Congo,2010,951092
+Africa,Algeria,2009,0
+Europe,Armenia,2009,0
+Eastern Mediterranean,Iraq,2009,0
+Europe,Kazakhstan,2009,0
+Eastern Mediterranean,Morocco,2009,0
+Eastern Mediterranean,Oman,2009,0
+Eastern Mediterranean,Syrian Arab Republic,2009,0
+Europe,Turkmenistan,2009,0
+Eastern Mediterranean,United Arab Emirates,2009,0
+Europe,Uzbekistan,2009,0
+Europe,Georgia,2009,1
+Europe,Kyrgyzstan,2009,1
+Eastern Mediterranean,Pakistan,2009,1015691
+Eastern Mediterranean,Sudan,2009,1140986
+South-East Asia,Indonesia,2009,1284831
+Africa,Liberia,2009,1384603
+South-East Asia,Myanmar,2009,1492378
+Africa,Burundi,2009,1532448
+Africa,Rwanda,2009,1546660
+Western Pacific,Papua New Guinea,2009,1563409
+Africa,Central African Republic,2009,1869529
+South-East Asia,Timor-Leste,2009,100128
+South-East Asia,Bhutan,2009,1057
+Africa,Eswatini,2009,106
+Africa,Mauritania,2009,108111
+Americas,Colombia,2009,110555
+Americas,Honduras,2009,12900
+Africa,Uganda,2009,13289108
+Americas,Bolivia (Plurinational State of),2009,13344
+South-East Asia,Democratic People's Republic of Korea,2009,14632
+Western Pacific,Vanuatu,2009,14887
+Europe,Tajikistan,2009,164
+Africa,Guinea-Bissau,2009,166267
+Americas,Guyana,2009,17877
+Africa,Togo,2009,2050314
+Africa,Zambia,2009,2200401
+Africa,Kenya,2009,2593628
+Africa,South Sudan,2009,2640300
+Africa,Chad,2009,2687611
+Africa,Sierra Leone,2009,2881379
+South-East Asia,India,2009,20663404
+Africa,Mayotte,2009,206
+Americas,El Salvador,2009,21
+Americas,Dominican Republic,2009,2115
+Western Pacific,Viet Nam,2009,22853
+Americas,Suriname,2009,2499
+South-East Asia,Nepal,2009,25643
+Americas,Belize,2009,256
+Africa,Democratic Republic of the Congo,2009,26605770
+Americas,Costa Rica,2009,262
+Eastern Mediterranean,Djibouti,2009,2686
+Africa,Eritrea,2009,27656
+Americas,Mexico,2009,2703
+Africa,Botswana,2009,2719
+Eastern Mediterranean,Afghanistan,2009,274981
+South-East Asia,Thailand,2009,29462
+Africa,Equatorial Guinea,2009,293747
+Africa,Gabon,2009,325788
+Americas,Brazil,2009,328858
+Africa,Comoros,2009,35544
+Europe,Türkiye,2009,38
+Africa,Guinea,2009,4003420
+Africa,Benin,2009,4032019
+Africa,Angola,2009,4429795
+Africa,Senegal,2009,405713
+Americas,French Guiana,2009,4051
+Americas,Venezuela (Bolivarian Republic of),2009,41927
+Americas,Ecuador,2009,4126
+Western Pacific,Cambodia,2009,426267
+Eastern Mediterranean,Iran (Islamic Republic of),2009,4345
+Africa,Gambia,2009,447032
+Eastern Mediterranean,Somalia,2009,454522
+Western Pacific,Lao People's Democratic Republic,2009,47466
+Africa,Malawi,2009,5457399
+Africa,Mali,2009,5630658
+Africa,Cameroon,2009,5936562
+Americas,Peru,2009,52035
+South-East Asia,Sri Lanka,2009,531
+Eastern Mediterranean,Saudi Arabia,2009,58
+Western Pacific,Philippines,2009,58824
+Western Pacific,Malaysia,2009,5955
+Africa,Niger,2009,6017879
+Africa,United Republic of Tanzania,2009,6797118
+Africa,Namibia,2009,6068
+Africa,South Africa,2009,6072
+Africa,Sao Tome and Principe,2009,6182
+Africa,Nigeria,2009,63192869
+Africa,Cabo Verde,2009,65
+Eastern Mediterranean,Yemen,2009,702010
+Western Pacific,Solomon Islands,2009,75305
+Africa,Zimbabwe,2009,763956
+Americas,Nicaragua,2009,772
+Europe,Azerbaijan,2009,78
+Africa,Mozambique,2009,8469429
+Africa,Ethiopia,2009,8773515
+Africa,Burkina Faso,2009,8932652
+Africa,Ghana,2009,8947844
+Americas,Paraguay,2009,80
+South-East Asia,Bangladesh,2009,80603
+Americas,Panama,2009,819
+Americas,Guatemala,2009,8285
+Americas,Haiti,2009,84023
+Africa,Madagascar,2009,882824
+Western Pacific,Republic of Korea,2009,898
+Africa,Côte d’Ivoire,2009,9645843
+Americas,Argentina,2009,92
+Africa,Congo,2009,923124
+Western Pacific,China,2009,9287
+Europe,Armenia,2008,0
+Europe,Kazakhstan,2008,0
+Eastern Mediterranean,Morocco,2008,0
+Eastern Mediterranean,Oman,2008,0
+Eastern Mediterranean,Syrian Arab Republic,2008,0
+Europe,Turkmenistan,2008,0
+Eastern Mediterranean,United Arab Emirates,2008,0
+Western Pacific,Papua New Guinea,2008,1180316
+Eastern Mediterranean,Sudan,2008,1238850
+South-East Asia,Indonesia,2008,1268598
+Africa,Liberia,2008,1403261
+South-East Asia,Myanmar,2008,1573810
+Africa,Burundi,2008,1694813
+Africa,Central African Republic,2008,1888773
+Americas,Argentina,2008,105
+Western Pacific,Republic of Korea,2008,1063
+Americas,Colombia,2008,109966
+Americas,Honduras,2008,11741
+Africa,Namibia,2008,12094
+Africa,Uganda,2008,12751923
+South-East Asia,Bangladesh,2008,121043
+Americas,Bolivia (Plurinational State of),2008,13210
+South-East Asia,Timor-Leste,2008,134166
+Africa,Guinea-Bissau,2008,134274
+Americas,Guyana,2008,16365
+South-East Asia,Democratic People's Republic of Korea,2008,16611
+Western Pacific,China,2008,16650
+Europe,Türkiye,2008,166
+Western Pacific,Viet Nam,2008,17911
+Europe,Kyrgyzstan,2008,18
+Eastern Mediterranean,Iraq,2008,2
+Africa,Zambia,2008,2217906
+Africa,Togo,2008,2307220
+Africa,Chad,2008,2521828
+Africa,South Sudan,2008,2586745
+Africa,Kenya,2008,2652387
+Africa,Sierra Leone,2008,2654929
+South-East Asia,India,2008,20063261
+Africa,Eritrea,2008,20767
+Eastern Mediterranean,Djibouti,2008,2060
+Americas,Suriname,2008,2086
+Africa,Mauritania,2008,209089
+Western Pacific,Cambodia,2008,214883
+Americas,Mexico,2008,2357
+Americas,Dominican Republic,2008,2365
+Africa,Gabon,2008,245099
+Africa,Botswana,2008,2457
+Western Pacific,Vanuatu,2008,26771
+Africa,Democratic Republic of the Congo,2008,27698851
+South-East Asia,Thailand,2008,28569
+Africa,Algeria,2008,3
+Africa,Guinea,2008,3612353
+Africa,Equatorial Guinea,2008,307734
+South-East Asia,Nepal,2008,31003
+Europe,Tajikistan,2008,318
+South-East Asia,Bhutan,2008,329
+Americas,El Salvador,2008,33
+Americas,Paraguay,2008,331
+Americas,Brazil,2008,335694
+Africa,Cabo Verde,2008,35
+Africa,Comoros,2008,35567
+Americas,Venezuela (Bolivarian Republic of),2008,37482
+Americas,French Guiana,2008,3884
+Africa,Benin,2008,4183971
+Eastern Mediterranean,Afghanistan,2008,402909
+Western Pacific,Lao People's Democratic Republic,2008,41446
+Africa,Mayotte,2008,410
+Africa,Gambia,2008,446959
+Africa,Madagascar,2008,469371
+Americas,Ecuador,2008,4891
+Africa,Angola,2008,5063972
+Africa,Malawi,2008,5115871
+Africa,Niger,2008,5403729
+Africa,Mali,2008,5515727
+Eastern Mediterranean,Yemen,2008,539905
+Americas,Peru,2008,54608
+Americas,Belize,2008,540
+Africa,Eswatini,2008,58
+Europe,Georgia,2008,6
+Africa,Ethiopia,2008,6406358
+Africa,Cameroon,2008,6574374
+Western Pacific,Malaysia,2008,6071
+Eastern Mediterranean,Saudi Arabia,2008,61
+Africa,Sao Tome and Principe,2008,6258
+Africa,Senegal,2008,628766
+Africa,Nigeria,2008,63355538
+South-East Asia,Sri Lanka,2008,649
+Africa,Rwanda,2008,683661
+Africa,Zimbabwe,2008,688884
+Europe,Uzbekistan,2008,7
+Africa,United Republic of Tanzania,2008,7417960
+Eastern Mediterranean,Somalia,2008,719911
+Europe,Azerbaijan,2008,72
+Western Pacific,Philippines,2008,74621
+Eastern Mediterranean,Pakistan,2008,763800
+Africa,South Africa,2008,7796
+Americas,Panama,2008,783
+Africa,Ghana,2008,8170400
+Africa,Mozambique,2008,8345403
+Africa,Burkina Faso,2008,8386574
+Eastern Mediterranean,Iran (Islamic Republic of),2008,8349
+Americas,Guatemala,2008,8421
+Americas,Haiti,2008,89554
+Africa,Côte d’Ivoire,2008,9176757
+Western Pacific,Solomon Islands,2008,93119
+Africa,Congo,2008,946201
+Americas,Nicaragua,2008,965
+Americas,Costa Rica,2008,966
+Europe,Armenia,2007,0
+Europe,Kazakhstan,2007,0
+Eastern Mediterranean,Morocco,2007,0
+Eastern Mediterranean,Syrian Arab Republic,2007,0
+Europe,Turkmenistan,2007,0
+Eastern Mediterranean,United Arab Emirates,2007,0
+Africa,Congo,2007,1015538
+Eastern Mediterranean,Somalia,2007,1128218
+Africa,Senegal,2007,1160145
+Western Pacific,Papua New Guinea,2007,1251261
+South-East Asia,Indonesia,2007,1252185
+South-East Asia,Myanmar,2007,1285206
+Africa,Liberia,2007,1347464
+Eastern Mediterranean,Sudan,2007,1450820
+Africa,Zimbabwe,2007,1690025
+Africa,Burundi,2007,1891093
+Africa,Central African Republic,2007,1891580
+Europe,Azerbaijan,2007,108
+Americas,Suriname,2007,1104
+Western Pacific,Philippines,2007,112751
+Africa,Guinea-Bissau,2007,112956
+South-East Asia,Timor-Leste,2007,114693
+Africa,Uganda,2007,12308621
+Americas,Costa Rica,2007,1223
+South-East Asia,Bangladesh,2007,126937
+Africa,Botswana,2007,1292
+Americas,Paraguay,2007,1337
+Americas,Panama,2007,1349
+Americas,Honduras,2007,14962
+Americas,Guyana,2007,15697
+Eastern Mediterranean,Iran (Islamic Republic of),2007,15712
+Western Pacific,Solomon Islands,2007,155491
+Americas,Guatemala,2007,17992
+Americas,Nicaragua,2007,1717
+Americas,Colombia,2007,173191
+Africa,Cabo Verde,2007,18
+South-East Asia,India,2007,19163338
+Americas,Bolivia (Plurinational State of),2007,19799
+Western Pacific,Cambodia,2007,191165
+South-East Asia,Sri Lanka,2007,198
+Eastern Mediterranean,Iraq,2007,2
+Africa,Sierra Leone,2007,2396659
+Africa,Zambia,2007,2399017
+Africa,Chad,2007,2424988
+Africa,South Sudan,2007,2520885
+Africa,Togo,2007,2566605
+Africa,Namibia,2007,20663
+Africa,Gabon,2007,200278
+Eastern Mediterranean,Djibouti,2007,2018
+Western Pacific,Republic of Korea,2007,2227
+Americas,Mexico,2007,2361
+Europe,Georgia,2007,24
+Africa,Sao Tome and Principe,2007,2421
+Africa,Mauritania,2007,246899
+Africa,Algeria,2007,26
+Western Pacific,Vanuatu,2007,27312
+Africa,Democratic Republic of the Congo,2007,27977616
+Western Pacific,Viet Nam,2007,28022
+Western Pacific,China,2007,29304
+Africa,Kenya,2007,3076957
+Africa,Guinea,2007,3297950
+Europe,Uzbekistan,2007,30
+Europe,Türkiye,2007,313
+Africa,Equatorial Guinea,2007,314016
+Americas,Argentina,2007,328
+South-East Asia,Thailand,2007,33178
+Americas,Dominican Republic,2007,3478
+Africa,Comoros,2007,35591
+Africa,Eritrea,2007,37568
+Eastern Mediterranean,Oman,2007,4
+Africa,Benin,2007,4220168
+Africa,Niger,2007,4668666
+Africa,Malawi,2007,4731580
+Americas,El Salvador,2007,40
+Western Pacific,Malaysia,2007,4048
+South-East Asia,Nepal,2007,42145
+Africa,Madagascar,2007,442208
+Africa,Gambia,2007,446954
+Western Pacific,Lao People's Democratic Republic,2007,45688
+Eastern Mediterranean,Afghanistan,2007,452626
+Eastern Mediterranean,Saudi Arabia,2007,467
+South-East Asia,Democratic People's Republic of Korea,2007,4795
+Americas,Venezuela (Bolivarian Republic of),2007,48834
+Africa,Mali,2007,5474736
+Africa,Angola,2007,5736210
+Americas,Brazil,2007,534516
+Americas,French Guiana,2007,5647
+Africa,Nigeria,2007,61400329
+Africa,Mayotte,2007,614
+Americas,Peru,2007,62633
+Africa,South Africa,2007,6327
+Europe,Tajikistan,2007,635
+Africa,Cameroon,2007,7031151
+Africa,Ethiopia,2007,7346228
+Africa,Ghana,2007,7556676
+Africa,Burkina Faso,2007,7693631
+Americas,Haiti,2007,73292
+South-East Asia,Bhutan,2007,793
+Africa,Mozambique,2007,8256754
+Africa,United Republic of Tanzania,2007,8298126
+Africa,Côte d’Ivoire,2007,8685416
+Americas,Ecuador,2007,8194
+Eastern Mediterranean,Pakistan,2007,835398
+Africa,Eswatini,2007,84
+Africa,Rwanda,2007,840559
+Americas,Belize,2007,845
+Eastern Mediterranean,Yemen,2007,852425
+Europe,Kyrgyzstan,2007,96
+Europe,Armenia,2006,0
+Europe,Kazakhstan,2006,0
+Eastern Mediterranean,Morocco,2006,0
+Eastern Mediterranean,Oman,2006,0
+Eastern Mediterranean,Syrian Arab Republic,2006,0
+Eastern Mediterranean,United Arab Emirates,2006,0
+Africa,Algeria,2006,1
+Europe,Turkmenistan,2006,1
+South-East Asia,Myanmar,2006,1017913
+Africa,Zimbabwe,2006,1028458
+Africa,Congo,2006,1063802
+Eastern Mediterranean,Yemen,2006,1201845
+Eastern Mediterranean,Somalia,2006,1274766
+Africa,Liberia,2006,1300190
+Africa,Senegal,2006,1376263
+South-East Asia,Indonesia,2006,1385963
+Africa,Rwanda,2006,1396437
+Western Pacific,Papua New Guinea,2006,1481681
+Eastern Mediterranean,Sudan,2006,1597895
+Africa,Central African Republic,2006,1889964
+Western Pacific,Philippines,2006,102993
+Africa,Guinea-Bissau,2006,111165
+Africa,South Africa,2006,12098
+Africa,Uganda,2006,12122459
+Eastern Mediterranean,Saudi Arabia,2006,1278
+Europe,Tajikistan,2006,1344
+Europe,Azerbaijan,2006,141
+Eastern Mediterranean,Iran (Islamic Republic of),2006,15909
+Africa,Eswatini,2006,155
+Africa,Eritrea,2006,16438
+South-East Asia,Timor-Leste,2006,164285
+Americas,Colombia,2006,165418
+Americas,Honduras,2006,17218
+Americas,Argentina,2006,172
+Americas,Panama,2006,1751
+South-East Asia,Bhutan,2006,1868
+South-East Asia,India,2006,19820336
+Eastern Mediterranean,Djibouti,2006,1976
+Africa,Burundi,2006,2161939
+Africa,Sierra Leone,2006,2277054
+Africa,Chad,2006,2342105
+Africa,South Sudan,2006,2450862
+Africa,Togo,2006,2660724
+Africa,Zambia,2006,2663591
+Africa,Gabon,2006,202209
+Western Pacific,Republic of Korea,2006,2051
+Western Pacific,Vanuatu,2006,22943
+Eastern Mediterranean,Iraq,2006,24
+Americas,Bolivia (Plurinational State of),2006,25742
+Americas,Mexico,2006,2514
+Africa,Mauritania,2006,258559
+Americas,Guyana,2006,27629
+Africa,Democratic Republic of the Congo,2006,27667876
+Western Pacific,Solomon Islands,2006,281888
+Americas,Costa Rica,2006,2903
+Africa,Guinea,2006,3153121
+Africa,Kenya,2006,3900370
+South-East Asia,Thailand,2006,30294
+Africa,Equatorial Guinea,2006,302024
+Europe,Kyrgyzstan,2006,318
+Americas,Suriname,2006,3289
+Western Pacific,China,2006,35383
+South-East Asia,Nepal,2006,35567
+Africa,Comoros,2006,35607
+Americas,Guatemala,2006,36610
+Americas,Nicaragua,2006,3943
+Africa,Benin,2006,4140781
+Africa,Niger,2006,4386050
+Africa,Malawi,2006,4638347
+Eastern Mediterranean,Afghanistan,2006,418216
+Western Pacific,Viet Nam,2006,43620
+Americas,Venezuela (Bolivarian Republic of),2006,43638
+Western Pacific,Cambodia,2006,437975
+Africa,Gambia,2006,447057
+Americas,Dominican Republic,2006,4535
+Americas,French Guiana,2006,4796
+Western Pacific,Lao People's Democratic Republic,2006,48965
+Africa,Botswana,2006,4801
+Americas,El Salvador,2006,49
+Africa,Mali,2006,5527211
+Africa,Sao Tome and Principe,2006,5146
+Western Pacific,Malaysia,2006,5294
+Americas,Brazil,2006,584183
+Europe,Georgia,2006,59
+Africa,Nigeria,2006,59418382
+South-East Asia,Sri Lanka,2006,591
+Africa,Angola,2006,6076182
+Africa,Madagascar,2006,666523
+Africa,Namibia,2006,68176
+South-East Asia,Bangladesh,2006,68539
+Africa,Mayotte,2006,682
+South-East Asia,Democratic People's Republic of Korea,2006,6913
+Africa,Cameroon,2006,7222479
+Africa,Ghana,2006,7330580
+Africa,Burkina Faso,2006,7347269
+Europe,Uzbekistan,2006,73
+Europe,Türkiye,2006,796
+Africa,Mozambique,2006,8325146
+Africa,Ethiopia,2006,8345640
+Africa,Côte d’Ivoire,2006,8496241
+Africa,Cabo Verde,2006,80
+Americas,Peru,2006,80054
+Americas,Haiti,2006,81199
+Americas,Paraguay,2006,820
+Americas,Belize,2006,844
+Eastern Mediterranean,Pakistan,2006,851104
+Africa,United Republic of Tanzania,2006,9232996
+Americas,Ecuador,2006,9863
+Europe,Kazakhstan,2005,0
+Eastern Mediterranean,Morocco,2005,0
+Eastern Mediterranean,Oman,2005,0
+Eastern Mediterranean,Syrian Arab Republic,2005,0
+Eastern Mediterranean,United Arab Emirates,2005,0
+Africa,Algeria,2005,1
+Europe,Turkmenistan,2005,1
+Eastern Mediterranean,Yemen,2005,1002795
+Africa,Zimbabwe,2005,1019639
+Africa,Congo,2005,1100055
+South-East Asia,Indonesia,2005,1187260
+Africa,Liberia,2005,1269211
+Africa,Senegal,2005,1362379
+Africa,Rwanda,2005,1385594
+Eastern Mediterranean,Somalia,2005,1392857
+Western Pacific,Papua New Guinea,2005,1413497
+South-East Asia,Myanmar,2005,1420525
+Eastern Mediterranean,Sudan,2005,1614440
+Africa,Central African Republic,2005,1872113
+Europe,Uzbekistan,2005,102
+South-East Asia,Bangladesh,2005,103199
+Eastern Mediterranean,Saudi Arabia,2005,1059
+Americas,Peru,2005,108134
+Africa,Mayotte,2005,1089
+Africa,Uganda,2005,12118906
+Africa,Guinea-Bissau,2005,131429
+Western Pacific,Republic of Korea,2005,1369
+Africa,Botswana,2005,1466
+South-East Asia,Timor-Leste,2005,153748
+Americas,Belize,2005,1549
+Europe,Georgia,2005,155
+South-East Asia,Sri Lanka,2005,1640
+Americas,Colombia,2005,166899
+Americas,Ecuador,2005,17050
+Africa,Sao Tome and Principe,2005,18139
+Eastern Mediterranean,Iran (Islamic Republic of),2005,18966
+South-East Asia,Bhutan,2005,1825
+Eastern Mediterranean,Djibouti,2005,1938
+Africa,Chad,2005,2232423
+Africa,Sierra Leone,2005,2270241
+Africa,Burundi,2005,2307035
+Africa,South Sudan,2005,2342844
+Africa,Togo,2005,2693615
+Africa,Zambia,2005,2988921
+Europe,Türkiye,2005,2084
+Western Pacific,China,2005,21936
+Africa,Gabon,2005,214915
+Europe,Kyrgyzstan,2005,225
+Americas,Honduras,2005,23468
+Europe,Tajikistan,2005,2309
+Americas,Argentina,2005,231
+South-East Asia,India,2005,24222815
+Europe,Azerbaijan,2005,242
+Western Pacific,Vanuatu,2005,25624
+Africa,Democratic Republic of the Congo,2005,27239636
+Americas,Bolivia (Plurinational State of),2005,27296
+Africa,Eritrea,2005,27680
+Africa,Eswatini,2005,279
+Africa,Mauritania,2005,281841
+Western Pacific,Solomon Islands,2005,286015
+Africa,Equatorial Guinea,2005,287656
+South-East Asia,Thailand,2005,29782
+Americas,Mexico,2005,2967
+Africa,Guinea,2005,3143778
+Western Pacific,Lao People's Democratic Republic,2005,35002
+Africa,Comoros,2005,35616
+Americas,Costa Rica,2005,3541
+South-East Asia,Nepal,2005,36030
+Americas,Paraguay,2005,373
+Americas,Panama,2005,3861
+Western Pacific,Cambodia,2005,388706
+Africa,Benin,2005,4026128
+Africa,Niger,2005,4271200
+Africa,Malawi,2005,4716725
+Western Pacific,Viet Nam,2005,40604
+Americas,French Guiana,2005,4015
+Africa,Gambia,2005,447415
+Americas,Guatemala,2005,46748
+Eastern Mediterranean,Iraq,2005,47
+Americas,Dominican Republic,2005,4950
+Africa,Kenya,2005,5018999
+Africa,Mali,2005,5683984
+Americas,Venezuela (Bolivarian Republic of),2005,52979
+Eastern Mediterranean,Afghanistan,2005,535477
+Americas,Guyana,2005,54583
+Western Pacific,Malaysia,2005,5569
+Africa,Nigeria,2005,57411916
+Africa,Angola,2005,6146933
+Africa,Namibia,2005,65303
+Americas,Brazil,2005,658276
+Africa,Madagascar,2005,662852
+Americas,El Salvador,2005,67
+South-East Asia,Democratic People's Republic of Korea,2005,6728
+Africa,Cabo Verde,2005,68
+Europe,Armenia,2005,7
+Africa,Cameroon,2005,7297108
+Africa,Ghana,2005,7350612
+Africa,Burkina Faso,2005,7363398
+Africa,South Africa,2005,7755
+Americas,Haiti,2005,78681
+Africa,Mozambique,2005,8517561
+Africa,Côte d’Ivoire,2005,8692864
+Africa,Ethiopia,2005,8879900
+Western Pacific,Philippines,2005,83163
+Americas,Nicaragua,2005,8412
+Eastern Mediterranean,Pakistan,2005,845170
+Africa,United Republic of Tanzania,2005,9949128
+Americas,Suriname,2005,9131
+Europe,Kazakhstan,2004,0
+Eastern Mediterranean,Oman,2004,0
+Eastern Mediterranean,United Arab Emirates,2004,0
+Eastern Mediterranean,Morocco,2004,1
+Eastern Mediterranean,Syrian Arab Republic,2004,1
+Africa,Zimbabwe,2004,1014311
+South-East Asia,Indonesia,2004,1087185
+Africa,Rwanda,2004,1101660
+Africa,Congo,2004,1126012
+Eastern Mediterranean,Somalia,2004,1245035
+Africa,Liberia,2004,1270287
+Africa,Senegal,2004,1393434
+South-East Asia,Myanmar,2004,1409035
+Eastern Mediterranean,Sudan,2004,1596519
+Western Pacific,Papua New Guinea,2004,1708217
+Africa,Central African Republic,2004,1837290
+Africa,United Republic of Tanzania,2004,10574049
+South-East Asia,Bangladesh,2004,101645
+Africa,Namibia,2004,105493
+Americas,Belize,2004,1066
+Americas,El Salvador,2004,112
+Americas,Peru,2004,115387
+Americas,Argentina,2004,116
+Africa,Uganda,2004,12210978
+Africa,Ethiopia,2004,12673710
+Africa,Botswana,2004,1217
+Eastern Mediterranean,Saudi Arabia,2004,1232
+Americas,Costa Rica,2004,1289
+Africa,South Africa,2004,13399
+Eastern Mediterranean,Iran (Islamic Republic of),2004,13821
+Africa,Eritrea,2004,15093
+South-East Asia,Democratic People's Republic of Korea,2004,15827
+Eastern Mediterranean,Iraq,2004,155
+Africa,Mayotte,2004,1632
+Africa,Guinea-Bissau,2004,166563
+Eastern Mediterranean,Djibouti,2004,1909
+Americas,Colombia,2004,197464
+Africa,Algeria,2004,2
+Africa,Chad,2004,2133329
+Africa,South Sudan,2004,2243889
+Africa,Sierra Leone,2004,2267452
+Africa,Burundi,2004,2453417
+Africa,Togo,2004,2657728
+Americas,Bolivia (Plurinational State of),2004,20206
+South-East Asia,India,2004,22459649
+South-East Asia,Timor-Leste,2004,234045
+Americas,Honduras,2004,25353
+Europe,Georgia,2004,257
+Africa,Democratic Republic of the Congo,2004,26379550
+South-East Asia,Thailand,2004,26690
+Africa,Equatorial Guinea,2004,264018
+Africa,Gabon,2004,266172
+South-East Asia,Bhutan,2004,2670
+Western Pacific,China,2004,27197
+Americas,Ecuador,2004,28730
+Africa,Mauritania,2004,286610
+Europe,Turkmenistan,2004,3
+Africa,Guinea,2004,3277416
+Africa,Zambia,2004,3376477
+Africa,Benin,2004,3859662
+Western Pacific,Vanuatu,2004,30560
+Americas,Dominican Republic,2004,3046
+Western Pacific,Solomon Islands,2004,337823
+Americas,Guatemala,2004,34124
+South-East Asia,Nepal,2004,34773
+Americas,Mexico,2004,3406
+Africa,Comoros,2004,35631
+Americas,French Guiana,2004,3580
+Europe,Tajikistan,2004,3588
+South-East Asia,Sri Lanka,2004,3720
+Europe,Azerbaijan,2004,386
+Africa,Niger,2004,4016648
+Africa,Malawi,2004,4633730
+Western Pacific,Lao People's Democratic Republic,2004,40333
+Americas,Guyana,2004,40416
+Western Pacific,Cambodia,2004,403094
+Africa,Gambia,2004,447989
+Africa,Cabo Verde,2004,45
+Africa,Sao Tome and Principe,2004,46486
+Europe,Armenia,2004,47
+Africa,Mali,2004,5475357
+Africa,Angola,2004,5889113
+Americas,Brazil,2004,516739
+Europe,Türkiye,2004,5302
+Americas,Panama,2004,5365
+Americas,Venezuela (Bolivarian Republic of),2004,54984
+Africa,Nigeria,2004,55028747
+Western Pacific,Viet Nam,2004,56559
+Africa,Eswatini,2004,574
+Africa,Kenya,2004,6304649
+Western Pacific,Malaysia,2004,6154
+Europe,Uzbekistan,2004,66
+Eastern Mediterranean,Pakistan,2004,683580
+Americas,Paraguay,2004,692
+Africa,Cameroon,2004,7231963
+Africa,Burkina Faso,2004,7546925
+Africa,Ghana,2004,7590600
+Eastern Mediterranean,Afghanistan,2004,716954
+Americas,Haiti,2004,77382
+Africa,Mozambique,2004,8967650
+Africa,Madagascar,2004,834134
+Americas,Suriname,2004,8378
+Western Pacific,Republic of Korea,2004,864
+Americas,Nicaragua,2004,8735
+Africa,Côte d’Ivoire,2004,9314093
+Europe,Kyrgyzstan,2004,91
+Western Pacific,Philippines,2004,91225
+Eastern Mediterranean,Yemen,2004,956179
+Europe,Kazakhstan,2003,0
+Eastern Mediterranean,United Arab Emirates,2003,0
+Africa,Zimbabwe,2003,1007217
+Africa,Congo,2003,1093188
+Africa,Madagascar,2003,1180072
+Eastern Mediterranean,Yemen,2003,1188478
+South-East Asia,Indonesia,2003,1189388
+Africa,Rwanda,2003,1231753
+Eastern Mediterranean,Afghanistan,2003,1242906
+Eastern Mediterranean,Somalia,2003,1268524
+Western Pacific,Papua New Guinea,2003,1333205
+Africa,Liberia,2003,1339076
+South-East Asia,Myanmar,2003,1396707
+Eastern Mediterranean,Sudan,2003,1722030
+Africa,Central African Republic,2003,1767275
+South-East Asia,Sri Lanka,2003,10510
+Americas,Suriname,2003,10982
+Western Pacific,Philippines,2003,100493
+Africa,United Republic of Tanzania,2003,11088120
+Americas,Peru,2003,111816
+Western Pacific,Republic of Korea,2003,1171
+Africa,Uganda,2003,12758978
+Americas,Argentina,2003,124
+Africa,Ethiopia,2003,13022221
+Africa,South Africa,2003,13459
+Americas,Belize,2003,1324
+Americas,Paraguay,2003,1388
+South-East Asia,Democratic People's Republic of Korea,2003,16538
+Eastern Mediterranean,Saudi Arabia,2003,1724
+Africa,Mayotte,2003,1743
+Africa,Botswana,2003,1862
+Eastern Mediterranean,Djibouti,2003,1881
+Americas,Dominican Republic,2003,1983
+Eastern Mediterranean,Syrian Arab Republic,2003,2
+Africa,Senegal,2003,2063074
+Africa,Chad,2003,2100279
+Africa,South Sudan,2003,2229084
+Africa,Sierra Leone,2003,2246838
+Africa,Togo,2003,2518511
+Africa,Burundi,2003,2699483
+South-East Asia,India,2003,20204783
+Americas,Honduras,2003,20706
+Eastern Mediterranean,Iran (Islamic Republic of),2003,23562
+Western Pacific,Solomon Islands,2003,239181
+Africa,Guinea-Bissau,2003,240938
+Africa,Equatorial Guinea,2003,242764
+Africa,Democratic Republic of the Congo,2003,25246571
+Americas,Colombia,2003,254224
+Americas,Bolivia (Plurinational State of),2003,27568
+Western Pacific,China,2003,28491
+Europe,Armenia,2003,29
+Africa,Guinea,2003,3457916
+Africa,Benin,2003,3601326
+Africa,Zambia,2003,3777289
+Africa,Niger,2003,3825282
+Europe,Georgia,2003,316
+Africa,Mauritania,2003,319661
+Africa,Eswatini,2003,342
+Africa,Gabon,2003,342808
+Eastern Mediterranean,Iraq,2003,347
+Africa,Comoros,2003,35658
+Americas,Guatemala,2003,36810
+South-East Asia,Thailand,2003,37355
+Americas,Venezuela (Bolivarian Republic of),2003,37510
+Americas,Guyana,2003,38681
+South-East Asia,Bhutan,2003,3806
+Americas,Mexico,2003,3819
+Eastern Mediterranean,Morocco,2003,4
+Africa,Malawi,2003,4851733
+Africa,Sao Tome and Principe,2003,42656
+Western Pacific,Vanuatu,2003,42687
+Africa,Gambia,2003,448547
+Western Pacific,Lao People's Democratic Republic,2003,45710
+Americas,French Guiana,2003,4540
+Europe,Kyrgyzstan,2003,461
+Western Pacific,Cambodia,2003,464899
+Americas,Brazil,2003,465651
+Americas,Panama,2003,4739
+Europe,Azerbaijan,2003,480
+Africa,Eritrea,2003,49490
+Africa,Algeria,2003,5
+Africa,Mali,2003,5230718
+Africa,Angola,2003,5686167
+Americas,Ecuador,2003,52065
+Africa,Nigeria,2003,52423482
+Europe,Tajikistan,2003,5428
+Eastern Mediterranean,Oman,2003,6
+Africa,Cameroon,2003,6910604
+Western Pacific,Malaysia,2003,6338
+South-East Asia,Timor-Leste,2003,67524
+Africa,Namibia,2003,67564
+Africa,Cabo Verde,2003,68
+Europe,Turkmenistan,2003,7
+Africa,Kenya,2003,7177403
+Africa,Burkina Faso,2003,7615906
+Africa,Ghana,2003,7895135
+Americas,Costa Rica,2003,718
+South-East Asia,Nepal,2003,72856
+Europe,Uzbekistan,2003,74
+Americas,Haiti,2003,76093
+Americas,El Salvador,2003,85
+Americas,Nicaragua,2003,8507
+Africa,Côte d’Ivoire,2003,9270252
+Africa,Mozambique,2003,9278676
+Europe,Türkiye,2003,9222
+Eastern Mediterranean,Pakistan,2003,924733
+Western Pacific,Viet Nam,2003,96592
+South-East Asia,Bangladesh,2003,99970
+Europe,Kazakhstan,2002,0
+Eastern Mediterranean,United Arab Emirates,2002,0
+Africa,Congo,2002,1071547
+South-East Asia,Indonesia,2002,1173580
+Western Pacific,Papua New Guinea,2002,1235844
+Eastern Mediterranean,Somalia,2002,1236218
+Eastern Mediterranean,Yemen,2002,1307377
+Africa,Liberia,2002,1343961
+Africa,Rwanda,2002,1375805
+Eastern Mediterranean,Afghanistan,2002,1382972
+South-East Asia,Myanmar,2002,1383490
+Africa,Central African Republic,2002,1707571
+Eastern Mediterranean,Sudan,2002,1837673
+Africa,Algeria,2002,10
+Europe,Türkiye,2002,10224
+Americas,Costa Rica,2002,1021
+South-East Asia,Timor-Leste,2002,104357
+Western Pacific,Malaysia,2002,11019
+Africa,United Republic of Tanzania,2002,11478532
+Americas,Belize,2002,1134
+Americas,El Salvador,2002,117
+Africa,Ethiopia,2002,12570226
+Africa,Uganda,2002,12776442
+Americas,Suriname,2002,12837
+Americas,Argentina,2002,125
+Americas,Peru,2002,128960
+Western Pacific,Viet Nam,2002,131451
+Eastern Mediterranean,Syrian Arab Republic,2002,15
+Eastern Mediterranean,Iran (Islamic Republic of),2002,15558
+Africa,South Africa,2002,15649
+Americas,Dominican Republic,2002,1685
+Western Pacific,Republic of Korea,2002,1799
+Europe,Turkmenistan,2002,18
+South-East Asia,India,2002,18873095
+Eastern Mediterranean,Djibouti,2002,1841
+Eastern Mediterranean,Morocco,2002,19
+Americas,Bolivia (Plurinational State of),2002,19768
+Africa,Chad,2002,2066768
+Africa,Senegal,2002,2248602
+Africa,South Sudan,2002,2250591
+Africa,Sierra Leone,2002,2269445
+Africa,Togo,2002,2382832
+Africa,Burundi,2002,2777742
+Africa,Equatorial Guinea,2002,227948
+Americas,Panama,2002,2363
+Africa,Democratic Republic of the Congo,2002,24298635
+Americas,Honduras,2002,25251
+Western Pacific,China,2002,25520
+Eastern Mediterranean,Saudi Arabia,2002,2612
+Europe,Kyrgyzstan,2002,2725
+Americas,Paraguay,2002,2775
+Western Pacific,Solomon Islands,2002,280109
+Americas,Colombia,2002,291432
+Africa,Benin,2002,3371811
+Africa,Guinea,2002,3556986
+Africa,Zambia,2002,3903346
+Americas,Guyana,2002,30656
+Africa,Mauritania,2002,308961
+Africa,Eritrea,2002,32823
+Africa,Guinea-Bissau,2002,323277
+Western Pacific,Cambodia,2002,349008
+Americas,Venezuela (Bolivarian Republic of),2002,35029
+Africa,Comoros,2002,35657
+Western Pacific,Vanuatu,2002,36655
+Africa,Botswana,2002,3663
+Africa,Gabon,2002,393460
+Africa,Niger,2002,4048859
+Africa,Mali,2002,4977784
+Americas,Brazil,2002,407200
+South-East Asia,Sri Lanka,2002,41411
+Americas,Guatemala,2002,42213
+Americas,French Guiana,2002,4348
+South-East Asia,Thailand,2002,44555
+Africa,Gambia,2002,449003
+Americas,Mexico,2002,4624
+Europe,Georgia,2002,474
+Africa,Malawi,2002,5157186
+Africa,Angola,2002,5414605
+Western Pacific,Lao People's Democratic Republic,2002,50404
+Africa,Sao Tome and Principe,2002,50586
+Africa,Nigeria,2002,50952482
+Europe,Azerbaijan,2002,505
+Europe,Armenia,2002,52
+Eastern Mediterranean,Oman,2002,6
+Africa,Cameroon,2002,6530590
+Europe,Tajikistan,2002,6160
+South-East Asia,Bhutan,2002,6511
+Africa,Eswatini,2002,670
+Africa,Kenya,2002,7444032
+Africa,Burkina Faso,2002,7513033
+Africa,Namibia,2002,70395
+Western Pacific,Philippines,2002,70585
+Europe,Uzbekistan,2002,74
+Americas,Haiti,2002,74792
+Africa,Cabo Verde,2002,76
+Africa,Ghana,2002,8148113
+South-East Asia,Nepal,2002,85217
+Americas,Ecuador,2002,86757
+Africa,Madagascar,2002,898515
+Africa,Côte d’Ivoire,2002,9068162
+Africa,Mozambique,2002,9283388
+Eastern Mediterranean,Iraq,2002,952
+Eastern Mediterranean,Pakistan,2002,966325
+Americas,Nicaragua,2002,9745
+South-East Asia,Bangladesh,2002,98239
+South-East Asia,Democratic People's Republic of Korea,2002,98852
+Africa,Zimbabwe,2002,999612
+Europe,Kazakhstan,2001,0
+Eastern Mediterranean,Morocco,2001,0
+Eastern Mediterranean,United Arab Emirates,2001,0
+Eastern Mediterranean,Pakistan,2001,1037774
+Africa,Madagascar,2001,1111496
+Africa,Congo,2001,1141982
+South-East Asia,Indonesia,2001,1157570
+Eastern Mediterranean,Yemen,2001,1182990
+Eastern Mediterranean,Somalia,2001,1283399
+Africa,Liberia,2001,1311933
+Eastern Mediterranean,Afghanistan,2001,1312939
+South-East Asia,Myanmar,2001,1369637
+Western Pacific,Papua New Guinea,2001,1443554
+Africa,Rwanda,2001,1478868
+Africa,Central African Republic,2001,1668386
+Europe,Türkiye,2001,10812
+Africa,Namibia,2001,102902
+Americas,Peru,2001,105067
+Europe,Azerbaijan,2001,1054
+Africa,Cabo Verde,2001,107
+Americas,Ecuador,2001,108903
+Europe,Tajikistan,2001,11387
+South-East Asia,Democratic People's Republic of Korea,2001,115615
+Americas,Belize,2001,1162
+Africa,United Republic of Tanzania,2001,12064438
+Africa,Uganda,2001,12579134
+Western Pacific,Malaysia,2001,12780
+Eastern Mediterranean,Iraq,2001,1265
+Americas,Nicaragua,2001,13275
+Africa,Ethiopia,2001,13910882
+South-East Asia,Timor-Leste,2001,130282
+Americas,Dominican Republic,2001,1315
+Americas,Costa Rica,2001,1363
+Africa,Eswatini,2001,1395
+Europe,Kyrgyzstan,2001,15
+Americas,Suriname,2001,16003
+Eastern Mediterranean,Djibouti,2001,1786
+Western Pacific,Vanuatu,2001,18702
+Western Pacific,Viet Nam,2001,185145
+Eastern Mediterranean,Iran (Islamic Republic of),2001,19303
+Eastern Mediterranean,Oman,2001,2
+Africa,Sierra Leone,2001,2201474
+Africa,South Sudan,2001,2283971
+Africa,Togo,2001,2289405
+Africa,Chad,2001,2291665
+Eastern Mediterranean,Sudan,2001,2326967
+Africa,Senegal,2001,2470115
+Africa,Burundi,2001,2817680
+South-East Asia,India,2001,20074161
+Western Pacific,China,2001,21237
+Americas,Argentina,2001,215
+Africa,Equatorial Guinea,2001,219511
+Americas,Bolivia (Plurinational State of),2001,22330
+Africa,Democratic Republic of the Congo,2001,23541817
+Americas,Venezuela (Bolivarian Republic of),2001,23834
+Western Pacific,Republic of Korea,2001,2556
+Africa,South Africa,2001,26506
+Americas,Paraguay,2001,2706
+Western Pacific,Solomon Islands,2001,285929
+Africa,Benin,2001,3107278
+Africa,Guinea,2001,3641386
+Africa,Mauritania,2001,307700
+Eastern Mediterranean,Saudi Arabia,2001,3074
+Americas,Colombia,2001,333024
+Americas,Honduras,2001,35405
+Africa,Comoros,2001,35623
+Americas,El Salvador,2001,362
+Americas,Guyana,2001,37974
+Western Pacific,Cambodia,2001,388681
+Africa,Zambia,2001,4119122
+Africa,Niger,2001,4180737
+Africa,Mali,2001,4719788
+Africa,Guinea-Bissau,2001,410118
+Africa,Sao Tome and Principe,2001,42086
+Americas,Guatemala,2001,42680
+Africa,Gabon,2001,421598
+Europe,Georgia,2001,438
+Africa,Gambia,2001,449211
+Americas,French Guiana,2001,4554
+Americas,Brazil,2001,467114
+Americas,Mexico,2001,4996
+Africa,Malawi,2001,5289453
+Africa,Angola,2001,5533981
+Africa,Nigeria,2001,51229713
+Africa,Eritrea,2001,54461
+South-East Asia,Nepal,2001,55778
+Western Pacific,Philippines,2001,56147
+South-East Asia,Bhutan,2001,5982
+Africa,Algeria,2001,6
+Africa,Cameroon,2001,6421751
+Western Pacific,Lao People's Democratic Republic,2001,62084
+Eastern Mediterranean,Syrian Arab Republic,2001,63
+South-East Asia,Thailand,2001,63528
+South-East Asia,Sri Lanka,2001,66522
+Africa,Burkina Faso,2001,7346774
+Africa,Kenya,2001,7808825
+Americas,Haiti,2001,73498
+Africa,Botswana,2001,7698
+Europe,Uzbekistan,2001,77
+Europe,Armenia,2001,79
+Europe,Turkmenistan,2001,8
+Africa,Ghana,2001,8428599
+Africa,Côte d’Ivoire,2001,8818723
+Africa,Mozambique,2001,8997785
+South-East Asia,Bangladesh,2001,96431
+Americas,Panama,2001,977
+Africa,Zimbabwe,2001,993468
+Europe,Kazakhstan,2000,0
+Eastern Mediterranean,United Arab Emirates,2000,0
+Eastern Mediterranean,Yemen,2000,1061470
+Africa,Congo,2000,1107615
+South-East Asia,Indonesia,2000,1141362
+Eastern Mediterranean,Somalia,2000,1177314
+Africa,Liberia,2000,1248403
+Eastern Mediterranean,Afghanistan,2000,1312939
+South-East Asia,Myanmar,2000,1355454
+Western Pacific,Papua New Guinea,2000,1462249
+Africa,Rwanda,2000,1536115
+Africa,Central African Republic,2000,1661418
+Americas,Peru,2000,103335
+Americas,Ecuador,2000,104528
+Americas,Panama,2000,1091
+Americas,Suriname,2000,11361
+Europe,Türkiye,2000,11432
+Africa,Uganda,2000,11703496
+Africa,United Republic of Tanzania,2000,12072965
+Western Pacific,Malaysia,2000,12705
+Europe,Uzbekistan,2000,126
+South-East Asia,Timor-Leste,2000,128146
+Europe,Armenia,2000,141
+Africa,Cabo Verde,2000,144
+Americas,Belize,2000,1486
+Africa,Ethiopia,2000,15016444
+Americas,Dominican Republic,2000,1524
+Europe,Azerbaijan,2000,1526
+Eastern Mediterranean,Djibouti,2000,1731
+Africa,South Africa,2000,18206
+Eastern Mediterranean,Iraq,2000,1860
+Americas,Costa Rica,2000,1879
+Europe,Tajikistan,2000,19064
+Africa,Botswana,2000,19146
+South-East Asia,India,2000,19692324
+Eastern Mediterranean,Iran (Islamic Republic of),2000,19716
+Africa,Sierra Leone,2000,2081568
+Africa,Chad,2000,2205617
+Africa,Togo,2000,2221914
+Africa,South Sudan,2000,2245004
+Eastern Mediterranean,Sudan,2000,2439775
+Africa,Senegal,2000,2676527
+Africa,Burundi,2000,2828604
+Africa,Benin,2000,2886309
+Western Pacific,Viet Nam,2000,201414
+South-East Asia,Sri Lanka,2000,210039
+Americas,Colombia,2000,210720
+Africa,Equatorial Guinea,2000,213141
+Africa,Democratic Republic of the Congo,2000,22826514
+Western Pacific,Vanuatu,2000,23167
+Europe,Turkmenistan,2000,24
+Europe,Georgia,2000,245
+Western Pacific,Solomon Islands,2000,254582
+Americas,Nicaragua,2000,29953
+Eastern Mediterranean,Morocco,2000,3
+Africa,Guinea,2000,3616058
+Africa,Zambia,2000,3927883
+Africa,Mauritania,2000,304757
+Africa,Sao Tome and Principe,2000,31975
+Americas,Guyana,2000,33628
+Africa,Algeria,2000,34
+Americas,Venezuela (Bolivarian Republic of),2000,35517
+Africa,Comoros,2000,35604
+Africa,Niger,2000,4134706
+Africa,Mali,2000,4565653
+Western Pacific,Republic of Korea,2000,4183
+Africa,Eritrea,2000,42711
+Africa,Gabon,2000,420619
+Americas,Argentina,2000,440
+Americas,French Guiana,2000,4428
+Africa,Gambia,2000,449173
+Americas,Bolivia (Plurinational State of),2000,45647
+South-East Asia,Nepal,2000,47986
+Africa,Guinea-Bissau,2000,496631
+Africa,Malawi,2000,5068222
+Africa,Angola,2000,5339605
+Africa,Nigeria,2000,50779020
+Americas,Honduras,2000,51498
+South-East Asia,Bhutan,2000,5935
+Eastern Mediterranean,Oman,2000,6
+Eastern Mediterranean,Syrian Arab Republic,2000,6
+Africa,Cameroon,2000,6133781
+Africa,Kenya,2000,6837558
+Americas,Guatemala,2000,63676
+Eastern Mediterranean,Saudi Arabia,2000,6608
+Western Pacific,Cambodia,2000,669109
+Americas,Paraguay,2000,6853
+Europe,Kyrgyzstan,2000,7
+Africa,Burkina Faso,2000,7121621
+Americas,Haiti,2000,72190
+Americas,Mexico,2000,7390
+Americas,El Salvador,2000,753
+Americas,Brazil,2000,760760
+Africa,Namibia,2000,77408
+South-East Asia,Thailand,2000,78561
+Africa,Eswatini,2000,787
+Western Pacific,Philippines,2000,79974
+Africa,Côte d’Ivoire,2000,8349017
+Africa,Mozambique,2000,8416877
+Africa,Ghana,2000,8477878
+Western Pacific,China,2000,8025
+Western Pacific,Lao People's Democratic Republic,2000,89755
+South-East Asia,Democratic People's Republic of Korea,2000,90582
+Africa,Madagascar,2000,905987
+Eastern Mediterranean,Pakistan,2000,923913
+South-East Asia,Bangladesh,2000,94616
+Africa,Zimbabwe,2000,987103
