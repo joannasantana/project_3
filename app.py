@@ -47,26 +47,28 @@ def usage():
 def cases():
     with Session(bind=engine) as session:
         cases_dict = {}
-        data = session.query(cases)
+        last_country = ""
+        data = session.query(cases).order_by(cases.Country).all()
         for row in data:
-            
-            cases_dict[cases.Country] = {
-                "Regions": cases.Region,
-                "Years": {
-                    cases.Year: cases.
-                }
+            current_country = cases.Country
+            if current_country != last_country:
+                if last_country != "":
+                    cases_dict[last_country] = {
+                        "Region": cases.Region,
+                        "Years": years_dict
+                    }
+                years_dict = {}
+                years_dict[cases.Year] = cases.Num_Cases
+                last_country = current_country
+            else:
+                years_dict[cases.Year] = cases.Num_Cases
+        return jsonify(cases_dict)
 
-            }
+# @app.route("/api/v1.0/deaths")
 
-
-
-        return jsonify(cases_data)
-
-@app.route("/api/v1.0/deaths")
-
-@app.route("/api/v1.0/rates")
+# @app.route("/api/v1.0/rates")
     
-@app.route("/api/v1.0/mortality")    
+# @app.route("/api/v1.0/mortality")    
 
 
 if __name__ == "__main__":
