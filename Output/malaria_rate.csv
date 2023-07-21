@@ -1,4 +1,4 @@
-Region,Country,Year,"Estimated Incidence (Per 1,000 Population at Risk)"
+Region,Country,Year,Incidence_Rate)
 Africa,Mauritius,2021,0.0
 Africa,Algeria,2021,0.0
 Americas,Belize,2021,0.0

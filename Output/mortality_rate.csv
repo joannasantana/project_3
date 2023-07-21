@@ -1,4 +1,4 @@
-Region,Country,Year,"Estimated Mortality Rate (Per 100,000 Population)"
+Region,Country,Year,Mortality_Rate
 Americas,Honduras,2020,0.0
 Americas,Belize,2020,0.0
 South-East Asia,Bhutan,2020,0.0
