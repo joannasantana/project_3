@@ -1,4 +1,4 @@
-ParentLocation,Location,Period,FactValueNumeric
+Region,Country,Year,"Estimated Mortality Rate (Per 100,000 Population)"
 Americas,Honduras,2020,0.0
 Americas,Belize,2020,0.0
 South-East Asia,Bhutan,2020,0.0
