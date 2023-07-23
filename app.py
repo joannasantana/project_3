@@ -3,6 +3,7 @@ import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func, inspect, text
+import numpy as np
 
 from flask import Flask, jsonify
 
@@ -44,31 +45,104 @@ def usage():
     """
 
 @app.route("/api/v1.0/cases")
-def cases():
+def cases_func():
     with Session(bind=engine) as session:
         cases_dict = {}
         last_country = ""
-        data = session.query(cases).order_by(cases.Country).all()
-        for row in data:
-            current_country = cases.Country
+        data = session.query(cases.Region, cases.Country, cases.Year, cases.Num_Cases).order_by(cases.Country).all()
+        data_list = []
+        for tuple in data:
+            tuple_as_list = list(np.ravel(tuple))
+            data_list.append(tuple_as_list)
+        for item in data_list:
+            current_country = item[1]
             if current_country != last_country:
                 if last_country != "":
                     cases_dict[last_country] = {
-                        "Region": cases.Region,
+                        "Region": item[0],
                         "Years": years_dict
                     }
                 years_dict = {}
-                years_dict[cases.Year] = cases.Num_Cases
+                years_dict[item[2]] = item[3]
                 last_country = current_country
             else:
-                years_dict[cases.Year] = cases.Num_Cases
+                years_dict[item[2]] = item[3]
         return jsonify(cases_dict)
 
-# @app.route("/api/v1.0/deaths")
+@app.route("/api/v1.0/deaths")
+def deaths_func():
+    with Session(bind=engine) as session:
+            deaths_dict = {}
+            last_country = ""
+            data = session.query(deaths.Region, deaths.Country, deaths.Year, deaths.Num_Deaths).order_by(deaths.Country).all()
+            data_list = []
+            for tuple in data:
+                tuple_as_list = list(np.ravel(tuple))
+                data_list.append(tuple_as_list)
+            for item in data_list:
+                current_country = item[1]
+                if current_country != last_country:
+                    if last_country != "":
+                        deaths_dict[last_country] = {
+                            "Region": item[0],
+                            "Years": years_dict
+                        }
+                    years_dict = {}
+                    years_dict[item[2]] = item[3]
+                    last_country = current_country
+                else:
+                    years_dict[item[2]] = item[3]
+            return jsonify(deaths_dict)
 
-# @app.route("/api/v1.0/rates")
-    
-# @app.route("/api/v1.0/mortality")    
+@app.route("/api/v1.0/rates")
+def rates_func():
+    with Session(bind=engine) as session:
+            rates_dict = {}
+            last_country = ""
+            data = session.query(rates.Region, rates.Country, rates.Year, rates.Incidence_Rate).order_by(rates.Country).all()
+            data_list = []
+            for tuple in data:
+                tuple_as_list = list(np.ravel(tuple))
+                data_list.append(tuple_as_list)
+            for item in data_list:
+                current_country = item[1]
+                if current_country != last_country:
+                    if last_country != "":
+                        rates_dict[last_country] = {
+                            "Region": item[0],
+                            "Years": years_dict
+                        }
+                    years_dict = {}
+                    years_dict[item[2]] = item[3]
+                    last_country = current_country
+                else:
+                    years_dict[item[2]] = item[3]
+            return jsonify(rates_dict)
+        
+@app.route("/api/v1.0/mortality")
+def mortality_func():
+    with Session(bind=engine) as session:
+            mortality_dict = {}
+            last_country = ""
+            data = session.query(mortality.Region, mortality.Country, mortality.Year, mortality.Mortality_Rate).order_by(mortality.Country).all()
+            data_list = []
+            for tuple in data:
+                tuple_as_list = list(np.ravel(tuple))
+                data_list.append(tuple_as_list)
+            for item in data_list:
+                current_country = item[1]
+                if current_country != last_country:
+                    if last_country != "":
+                        mortality_dict[last_country] = {
+                            "Region": item[0],
+                            "Years": years_dict
+                        }
+                    years_dict = {}
+                    years_dict[item[2]] = item[3]
+                    last_country = current_country
+                else:
+                    years_dict[item[2]] = item[3]
+            return jsonify(mortality_dict)    
 
 
 if __name__ == "__main__":
