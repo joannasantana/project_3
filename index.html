@@ -24,6 +24,7 @@
           <h5>Country #1:</h5>
           <select id="selDataset"></select>
           <h5>Country #2:</h5>
+          <!-- need unique id's -->
             <select id="selDataset"></select>
         </div>
         <div class="panel panel-primary">
@@ -48,6 +49,47 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script type="module" src="/logic.js"></script>
+
+   <!-- New code added here-->
+    <head>
+      <meta charset="UTF-8">
+      <title>Malaria Choropleth</title>
+  
+      <!-- Leaflet JavaScript code-->
+      <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+      integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+      crossorigin=""></script>
+  
+      <!-- D3 library -->
+      <script src="https://d3js.org/d3.v5.min.js"></script>
+  
+      <!-- Leaflet CSS -->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+      integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+      crossorigin=""/>
+  
+      <!-- Step 2 -->
+      <!-- leaflet-choropleth JavaScript -->
+      <script type="text/javascript" src="static/js/choropleth.js"></script>
+  
+      <!-- Our CSS -->
+      <link rel="stylesheet" type="text/css" href="static/css/style.css">
+  
+    </head>
+    <body>
+  
+      <!-- The div where we'll insert our map -->
+      <div id="map"></div>
+  
+      <!-- Our JavaScript -->
+      <script type="text/javascript" src="static/js/logic-step1.js"></script>
+      <!-- <script type="text/javascript" src="static/js/logic-step3.js"></script> -->
+      <!-- <script type="text/javascript" src="static/js/logic-step4.js"></script> -->
+  
+    </body>
+  </html>
+  
+  
 
 </body>
 

@@ -14,7 +14,7 @@ d3.json("Output/cases.json").then(function(data) {
     casesList2021.sort(function(a,b){
         return b.numCases - a.numCases;
     })
-    console
+
     let list = document.getElementById("top10list");
     for(let i = 0; i < 10; i++){
         let li = document.createElement("li");
