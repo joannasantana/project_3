@@ -1,27 +1,34 @@
 d3.json("Output/cases.json").then(function(data) {
    var cases = data
-   var casesList2021 = []
     console.log(data)
-    for(var i in cases){
-        var key = i;
-        var caseAmount = cases[i]["Years"]["2021"]
-        let currentDict = {
-            "country" : key,
-            "numCases" : caseAmount
+    var dropDown=document.getElementById("selYear");
+    dropDown.onchange=function (){
+        var casesList = []
+        let list = document.getElementById("top10list");
+        list.innerHTML='';
+        var yearCases = dropDown.value;
+        for(var i in cases){
+            var key = i;
+            var caseAmount = cases[i]["Years"][yearCases]
+            let currentDict = {
+                "country" : key,
+                "numCases" : caseAmount
+            }
+            casesList.push(currentDict)
         }
-        casesList2021.push(currentDict)
-    }
-    casesList2021.sort(function(a,b){
-        return b.numCases - a.numCases;
-    })
+        casesList.sort(function(a,b){
+            return b.numCases - a.numCases;
+        })
 
-    let list = document.getElementById("top10list");
+    
     for(let i = 0; i < 10; i++){
         let li = document.createElement("li");
-        li.appendChild(document.createTextNode(casesList2021[i]["country"]));
+        li.appendChild(document.createTextNode(casesList[i]["country"]));
         list.appendChild(li);
     }
-    console.log(casesList2021)
+    console.log(casesList)
+
+    }
 });
 
 d3.json("Output/countries.json").then(function(data) {
