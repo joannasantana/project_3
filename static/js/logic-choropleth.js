@@ -1,27 +1,54 @@
-// Creating the map object
-let myMap = L.map("map", {
-  center: [27.96044, -82.30695],
-  zoom: 7
+// Declare variables
+let myMap;
+let geojson;
+let chosenYear = "2021";
+
+// Load json file
+d3.json("Output/cases.json").then(function(data) {
+  let cases = data;
+  console.log(data)
+  // Load the geojson file
+  d3.json("Resources/countries.geojson").then(function(data) {
+    let geoData = data;
+    console.log(data)
+    const combinedData = combineGeodataAndCases(geoData, cases)
+    console.log(combinedData)
+    // Creating the map object
+    myMap = L.map("map", {
+    center: [40.52, 34.34],
+    zoom: 2.5
+    });
+    // Adding the tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(myMap);
+    createChoroplath(combinedData)
+  });
+
 });
 
-// Adding the tile layer
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(myMap);
+// Create a function to combine both datasets with the cases data populating under features.properties
+function combineGeodataAndCases(geoData, casesData) {
+  const combinedData = {};
+  geoData.features.forEach((feature) => {
+    const countryName = feature.properties.ADMIN;
+    if (countryName in casesData) {
+      const countryInfo = casesData[countryName];
+      feature.properties.cases = countryInfo;
+      combinedData[countryName] = feature;
+    }
+  });
 
-// Load the GeoJSON data.
-let geoData = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/15-Mapping-Web/ACS-ED_2014-2018_Economic_Characteristics_FL.geojson";
-
-let geojson;
+  return combinedData;
+}
 
 // Get the data with d3.
-d3.json(geoData).then(function(data) {
-
-  // Create a new choropleth layer.
+function createChoroplath(data) {
+  // Create a new choropleth layer. 
   geojson = L.choropleth(data, {
 
     // Define which property in the features to use.
-    valueProperty: "DP03_16E",
+    valueProperty: `properties.cases.Years.${chosenYear}`,
 
     // Set the color scale.
     scale: ["#ffffb2", "#b10026"],
@@ -40,8 +67,8 @@ d3.json(geoData).then(function(data) {
 
     // Binding a popup to each layer
     onEachFeature: function(feature, layer) {
-      layer.bindPopup("<strong>" + feature.properties.NAME + "</strong><br /><br />Estimated employed population with children age 6-17: " +
-        feature.properties.DP03_16E + "<br /><br />Estimated Total Income and Benefits for Families: $" + feature.properties.DP03_75E);
+      layer.bindPopup("<strong>" + feature.properties.ADMIN + "</strong><br /><br />Number of Malaria cases: " +
+      feature.properties.cases.Years[chosenYear]);
     }
   }).addTo(myMap);
 
@@ -54,7 +81,7 @@ d3.json(geoData).then(function(data) {
     let labels = [];
 
     // Add the minimum and maximum.
-    let legendInfo = "<h1>Population with Children<br />(ages 6-17)</h1>" +
+    let legendInfo = "<h1>Number of Malaria Cases</h1>" +
       "<div class=\"labels\">" +
         "<div class=\"min\">" + limits[0] + "</div>" +
         "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
@@ -72,5 +99,4 @@ d3.json(geoData).then(function(data) {
 
   // Adding the legend to the map
   legend.addTo(myMap);
-
-});
+};
