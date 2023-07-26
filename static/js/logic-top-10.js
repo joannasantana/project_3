@@ -1,35 +1,38 @@
 d3.json("Output/cases.json").then(function(data) {
-   var cases = data
-    console.log(data)
+    var cases = data
     var dropDown=document.getElementById("selYear");
+    updatetop10list(2000,cases)
     dropDown.onchange=function (){
-        var casesList = []
-        let list = document.getElementById("top10list");
-        list.innerHTML='';
-        var yearCases = dropDown.value;
-        for(var i in cases){
-            var key = i;
-            var caseAmount = cases[i]["Years"][yearCases]
-            let currentDict = {
-                "country" : key,
-                "numCases" : caseAmount
-            }
-            casesList.push(currentDict)
-        }
-        casesList.sort(function(a,b){
-            return b.numCases - a.numCases;
-        })
-
-    
-    for(let i = 0; i < 10; i++){
-        let li = document.createElement("li");
-        li.appendChild(document.createTextNode(casesList[i]["country"]));
-        list.appendChild(li);
-    }
-    console.log(casesList)
-
+    updatetop10list(dropDown.value, cases)
     }
 });
+
+function updatetop10list(chosenYear, data){
+    var casesList = []
+    let list = document.getElementById("top10list");
+    list.innerHTML='';
+    for(var i in data){
+        var key = i;
+        var caseAmount = data[i]["Years"][chosenYear]
+        let currentDict = {
+            "country" : key,
+            "numCases" : caseAmount
+        }
+        casesList.push(currentDict)
+    }
+    casesList.sort(function(a,b){
+        return b.numCases - a.numCases;
+    })
+
+
+for(let i = 0; i < 10; i++){
+    let li = document.createElement("li");
+    li.appendChild(
+        document.createTextNode(`${casesList[i]["country"]} (${casesList[i]["numCases"]})`));
+    list.appendChild(li);
+}
+
+}
 
 d3.json("Output/countries.json").then(function(data) {
     let countries = data
