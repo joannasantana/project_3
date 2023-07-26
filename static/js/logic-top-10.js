@@ -13,17 +13,21 @@ function updatetop10list(chosenYear, data){
     list.innerHTML='';
     for(var i in data){
         var key = i;
+        if( key != "Country"){
         var caseAmount = data[i]["Years"][chosenYear]
         let currentDict = {
             "country" : key,
             "numCases" : caseAmount
         }
         casesList.push(currentDict)
+        }
+        
     }
     casesList.sort(function(a,b){
         return b.numCases - a.numCases;
     })
 
+    console.log(casesList)
 
 for(let i = 0; i < 10; i++){
     let li = document.createElement("li");
