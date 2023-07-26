@@ -22,33 +22,42 @@ d3.json("Output/cases.json").then(function(data) {
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(myMap);
-    createChoroplath(combinedData)
+    console.log("tileLayer")
+    createChoropleth(combinedData)
   });
 
 });
 
 // Create a function to combine both datasets with the cases data populating under features.properties
 function combineGeodataAndCases(geoData, casesData) {
-  const combinedData = {};
+  const combinedData = [];
   geoData.features.forEach((feature) => {
     const countryName = feature.properties.ADMIN;
     if (countryName in casesData) {
       const countryInfo = casesData[countryName];
       feature.properties.cases = countryInfo;
-      combinedData[countryName] = feature;
+      combinedData.push(feature);
     }
   });
 
-  return combinedData;
+  return {
+    "type": "FeatureCollection",
+    "features": combinedData
+  };
 }
 
 // Get the data with d3.
-function createChoroplath(data) {
+function createChoropleth(data) {
+  console.log(data)
   // Create a new choropleth layer. 
+  console.log(geojson);
   geojson = L.choropleth(data, {
 
     // Define which property in the features to use.
-    valueProperty: `properties.cases.Years.${chosenYear}`,
+    valueProperty: function(feature) {
+      return feature.properties.cases.Years[chosenYear]
+    },
+    // `properties.cases.Years.${chosenYear}`,
 
     // Set the color scale.
     scale: ["#ffffb2", "#b10026"],
@@ -71,6 +80,7 @@ function createChoroplath(data) {
       feature.properties.cases.Years[chosenYear]);
     }
   }).addTo(myMap);
+  console.log(geojson);
 
   // Set up the legend.
   let legend = L.control({ position: "bottomright" });

@@ -16,7 +16,7 @@ d3.json("Output/cases.json").then(function(data) {
     }
     console.log(casesList)
     populateDropdown()
-    updateLineGraph(casesList[0], casesList[6])
+    updateLineGraph(casesList[0], casesList[0])
 });
 
 // Assign location of dropdown menus using d3.select
@@ -78,14 +78,14 @@ function updateLineGraph(country1, country2) {
               label: country1.Country,
               data: setA,
               fill: false,
-              borderColor: 'rgb(75, 192, 192)',
+              borderColor: 'rgb(255, 0, 0)',
               tension: 0.1,
             },
             {
                 label: country2.Country,
                 data: setB,
                 fill: false,
-                borderColor: 'rgb(30, 192, 30)',
+                borderColor: 'rgb(0, 0, 255)',
                 tension: 0.1
               }
             ],
