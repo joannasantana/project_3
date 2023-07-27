@@ -7,32 +7,60 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Malaria</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- New code added here-->
+  <!-- D3 library -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+  <!-- Leaflet JavaScript code-->
+  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+
+  <!-- Step 2 -->
+  <!-- leaflet-choropleth JavaScript -->
+  <script type="text/javascript" src="static/js/choropleth.js"></script>
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+  <!-- Chart.js source -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
 
 <body>
 
   <div class="container">
-    <div class="row">
+    <div id= "first-row" class="row">
       <div class="col-md-12 jumbotron text-center">
         <h1>Malaria Incidence Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
-    <div class="row">
-    <h3>Malaria Cases Around the World</h3>
-        <style>h3 {
-      margin: 100px; 
-        }
-    </style>
-      <div class="col-md-2">
+    <div id= "second-row" class="row row-spacing">
+      <div class="col-md-4">
         <div class="well">
-          <h5>Country #1:</h5>
+          <h5>Select Two Countries for Line Graph</h5>
+          <h6>Country #1:</h6>
             <select id="selDataset1"></select>
-          <h5>Country #2:</h5>
+          <h6>Country #2:</h6>
             <select id="selDataset2"></select>
         </div>
+      </div>
+      <div class="col-md-8">
+        <h5 class="text-center">Number of Malaria Cases</h5>
+        <canvas id="line" style="width:100%;max-width:700px"></canvas>
+      </div>
+    </div>
+    <div id= "third-row" class="row row-spacing">
+      <div class="col-md-4">
         <div class="well">
-          <h5>Year:</h5>
+          <h5>Select Year for Top 10 List</h5>
             <select id="selYear">
               <option value="2000">2000</option>
               <option value="2001">2001</option>
@@ -66,53 +94,25 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
-      <div class="col-md-10">
-        <canvas id="line" style="width:100%;max-width:700px"></canvas>
+      <div class="col-md-8">
+        <!-- The div where we'll insert our map -->
+        <div id="map" style="height: 500px";></div>
       </div>
     </div>
   </div>
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script type="text/javascript" src="static/js/logic-choropleth.js"></script>
+  <script type="text/javascript" src="static/js/logic-lineGraph.js"></script>
+  <script type="text/javascript" src="static/js/logic-top-10.js"></script>
 
-   <!-- New code added here-->
-   <head>
-    <meta charset="UTF-8">
-    <title>Malaria Cases</title>
 
-    <!-- D3 library -->
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+  <!-- Our JavaScript -->
+  <script type="text/javascript" src="static/js/logic-choropleth.js"></script>
+  <script type="text/javascript" src="static/js/logic-lineGraph.js"></script>
+  <script type="text/javascript" src="static/js/logic-top-10.js"></script>
 
-    <!-- Leaflet JavaScript code-->
-    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-    crossorigin=""></script>
-
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
-    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-    crossorigin=""/>
-
-    <!-- Step 2 -->
-    <!-- leaflet-choropleth JavaScript -->
-    <script type="text/javascript" src="static/js/choropleth.js"></script>
-
-    <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="static/css/style.css">
-
-      <!-- Chart.js source -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-
-  </head>
-  <body>
-    <!-- The div where we'll insert our map -->
-    <div id="map"></div>
-
-    <!-- Our JavaScript -->
-    <script type="text/javascript" src="static/js/logic-choropleth.js"></script>
-    <script type="text/javascript" src="static/js/logic-lineGraph.js"></script>
-    <script type="text/javascript" src="static/js/logic-top-10.js"></script>
-
-  </body>
+</body>
 
 </html>

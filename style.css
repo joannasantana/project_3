@@ -8,3 +8,16 @@ body {
   html {
     height: 100%;
   }
+
+  .well {
+    width: 300px; /* Set the width of the well container */
+    padding: 10px; /* Optional: Add some padding for better appearance */
+  }
+  
+  select {
+    width: 100%; /* Set the dropdown width to 100% of its container */
+    box-sizing: border-box; /* Include padding and border in the width */
+  }
+  
+  
+  

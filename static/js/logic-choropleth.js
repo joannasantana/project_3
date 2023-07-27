@@ -1,7 +1,6 @@
 // Declare variables
 let myMap;
 let geojson;
-let chosenYear = "2021";
 
 // Load json file
 d3.json("Output/cases.json").then(function(data) {
@@ -16,14 +15,19 @@ d3.json("Output/cases.json").then(function(data) {
     // Creating the map object
     myMap = L.map("map", {
     center: [40.52, 34.34],
-    zoom: 2.5
+    zoom: 1.4
     });
     // Adding the tile layer
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(myMap);
     console.log("tileLayer")
-    createChoropleth(combinedData)
+    var dropDown=document.getElementById("selYear");
+    createChoropleth(combinedData, 2000)
+    dropDown.onchange=function (){
+    createChoropleth(combinedData, dropDown.value)
+    }
+    
   });
 
 });
@@ -47,7 +51,7 @@ function combineGeodataAndCases(geoData, casesData) {
 }
 
 // Get the data with d3.
-function createChoropleth(data) {
+function createChoropleth(data, chosenYear) {
   console.log(data)
   // Create a new choropleth layer. 
   console.log(geojson);
@@ -57,7 +61,6 @@ function createChoropleth(data) {
     valueProperty: function(feature) {
       return feature.properties.cases.Years[chosenYear]
     },
-    // `properties.cases.Years.${chosenYear}`,
 
     // Set the color scale.
     scale: ["#ffffb2", "#b10026"],
@@ -91,7 +94,7 @@ function createChoropleth(data) {
     let labels = [];
 
     // Add the minimum and maximum.
-    let legendInfo = "<h1>Number of Malaria Cases</h1>" +
+    let legendInfo = "<h5>Number of Malaria Cases</h5>" +
       "<div class=\"labels\">" +
         "<div class=\"min\">" + limits[0] + "</div>" +
         "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +

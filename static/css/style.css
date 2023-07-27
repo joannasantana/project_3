@@ -17,7 +17,7 @@ html {
 .legend {
   color: #555;
   padding: 6px 8px;
-  font: 12px Arial, Helvetica, sans-serif;
+  font: 14px Arial, Helvetica, sans-serif;
   font-weight: bold;
   background: white;
   background: rgba(255,255,255,0.8);
@@ -46,3 +46,22 @@ html {
 h1 {
   text-align: center;
 }
+
+select {
+  width: 100%; /* Set the dropdown width to 100% of its container */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+h5 {
+  font-weight: bold;
+}
+
+#line {
+  display: block; /* Ensure the canvas is a block-level element */
+  margin: 0 auto;
+}
+
+.row-spacing {
+  margin-bottom: 80px; /* Adjust the value as needed for the desired spacing */
+}
+
