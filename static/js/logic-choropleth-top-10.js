@@ -66,7 +66,7 @@ function createChoropleth(data, chosenYear) {
 
     // Define which property in the features to use.
     valueProperty: function(feature) {
-      return feature.properties.cases.Years[chosenYear]
+      return Number(feature.properties.cases.Years[chosenYear])
     },
 
     // Set the color scale.
