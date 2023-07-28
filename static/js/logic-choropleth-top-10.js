@@ -71,9 +71,10 @@ function createChoropleth(data, chosenYear) {
 
     // Set the color scale.
     scale: ["#ffffb2", "#b10026"],
+    
 
     // The number of breaks in the step range
-    steps: 10,
+    steps: 15,
 
     // q for quartile, e for equidistant, k for k-means
     mode: "q",
@@ -115,6 +116,7 @@ function createChoropleth(data, chosenYear) {
     div.innerHTML += "<ul>" + labels.join("") + "</ul>";
     return div;
   };
+  
 
   // Adding the legend to the map
   legend.addTo(myMap);
