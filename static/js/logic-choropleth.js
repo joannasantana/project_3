@@ -11,20 +11,13 @@ d3.json("Output/cases.json").then(function(data) {
     let geoData = data;
     console.log(data)
     const combinedData = combineGeodataAndCases(geoData, cases)
-    console.log(combinedData)
-    // Creating the map object
-    myMap = L.map("map", {
-    center: [40.52, 34.34],
-    zoom: 1.4
-    });
-    // Adding the tile layer
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(myMap);
-    console.log("tileLayer")
     var dropDown=document.getElementById("selYear");
     createChoropleth(combinedData, 2000)
     dropDown.onchange=function (){
+    if (myMap && myMap.remove) {
+        myMap.off();
+        myMap.remove();
+    }
     createChoropleth(combinedData, dropDown.value)
     }
     
@@ -52,7 +45,15 @@ function combineGeodataAndCases(geoData, casesData) {
 
 // Get the data with d3.
 function createChoropleth(data, chosenYear) {
-  console.log(data)
+  // Creating the map object
+  myMap = L.map("map", {
+    center: [40.52, 34.34],
+    zoom: 1.4
+    });
+    // Adding the tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(myMap);
   // Create a new choropleth layer. 
   console.log(geojson);
   geojson = L.choropleth(data, {
