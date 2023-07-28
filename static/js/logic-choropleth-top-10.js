@@ -6,11 +6,18 @@ let geojson;
 d3.json("Output/cases.json").then(function(data) {
   let cases = data;
   console.log(data)
+  // find the html that corresponds to the dropdown
+  var dropDown=document.getElementById("selYear");
+
+  // run the top 10 list initially
+  updatetop10list(2000,cases)
+  
   // Load the geojson file
   d3.json("Resources/countries.geojson").then(function(data) {
     let geoData = data;
     console.log(data)
     const combinedData = combineGeodataAndCases(geoData, cases)
+    console.log(combinedData);
     var dropDown=document.getElementById("selYear");
     createChoropleth(combinedData, 2000)
     dropDown.onchange=function (){
@@ -18,9 +25,9 @@ d3.json("Output/cases.json").then(function(data) {
         myMap.off();
         myMap.remove();
     }
-    createChoropleth(combinedData, dropDown.value)
-    }
-    
+    createChoropleth(combinedData, dropDown.value);
+    updatetop10list(dropDown.value, cases);
+    } 
   });
 
 });
@@ -55,7 +62,6 @@ function createChoropleth(data, chosenYear) {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(myMap);
   // Create a new choropleth layer. 
-  console.log(geojson);
   geojson = L.choropleth(data, {
 
     // Define which property in the features to use.
@@ -84,7 +90,6 @@ function createChoropleth(data, chosenYear) {
       feature.properties.cases.Years[chosenYear]);
     }
   }).addTo(myMap);
-  console.log(geojson);
 
   // Set up the legend.
   let legend = L.control({ position: "bottomright" });
@@ -114,3 +119,38 @@ function createChoropleth(data, chosenYear) {
   // Adding the legend to the map
   legend.addTo(myMap);
 };
+
+// update top 10 list function
+function updatetop10list(chosenYear, data){
+  var casesList = []
+  let list = document.getElementById("top10list");
+  list.innerHTML='';
+
+  // for loop that creates a list of dictionaries
+  for(var i in data){
+      var key = i;
+      if( key != "Country"){
+      var caseAmount = data[i]["Years"][chosenYear]
+      let currentDict = {
+          "country" : key,
+          "numCases" : caseAmount
+      }
+      casesList.push(currentDict)
+      }
+      
+  }
+
+  // sort by the number of cases
+  casesList.sort(function(a,b){
+      return b.numCases - a.numCases;
+  })
+
+// Create the list elements for the top 10 list
+  for(let i = 0; i < 10; i++){
+      let li = document.createElement("li");
+      li.appendChild(
+      document.createTextNode(`${casesList[i]["country"]} (${casesList[i]["numCases"]})`));
+      list.appendChild(li);
+  }
+
+}
