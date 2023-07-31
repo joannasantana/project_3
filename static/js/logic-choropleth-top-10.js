@@ -1,38 +1,40 @@
-// Declare variables
+// Declare variables.
 let myMap;
 let geojson;
 
-// Load json file
+// Load json file using d3.
 d3.json("Output/cases.json").then(function(data) {
   let cases = data;
-  console.log(data)
-  // find the html that corresponds to the dropdown
-  var dropDown=document.getElementById("selYear");
-
-  // run the top 10 list initially
-  updatetop10list(2000,cases)
-  
-  // Load the geojson file
+  console.log(cases);
+  // Load the geojson file using d3.
   d3.json("Resources/countries.geojson").then(function(data) {
     let geoData = data;
-    console.log(data)
-    const combinedData = combineGeodataAndCases(geoData, cases)
+    console.log(geoData);
+    // Run the function that combines json and geojson data.
+    const combinedData = combineGeodataAndCases(geoData, cases);
     console.log(combinedData);
+    // Find the html element that corresponds to the dropdown.
     var dropDown=document.getElementById("selYear");
-    createChoropleth(combinedData, 2000)
+    // Create the top 10 list initially.
+    updatetop10list(2000,cases);
+    // Create the map initially.
+    createChoropleth(combinedData, 2000);
+    // Run function that will update the top 10 list and map when selected year changes by dropdown interaction.
     dropDown.onchange=function (){
-    if (myMap && myMap.remove) {
-        myMap.off();
-        myMap.remove();
-    }
-    createChoropleth(combinedData, dropDown.value);
-    updatetop10list(dropDown.value, cases);
+    // Remove previous instance of the map.
+      if (myMap && myMap.remove) {
+          myMap.off();
+          myMap.remove();
+      }
+      // Update the map.
+      createChoropleth(combinedData, dropDown.value);
+      // Update the top 10 list.
+      updatetop10list(dropDown.value, cases);
     } 
   });
-
 });
 
-// Create a function to combine both datasets with the cases data populating under features.properties
+// Create a function to combine both datasets with the cases data populating under features.properties.
 function combineGeodataAndCases(geoData, casesData) {
   const combinedData = [];
   geoData.features.forEach((feature) => {
@@ -43,14 +45,14 @@ function combineGeodataAndCases(geoData, casesData) {
       combinedData.push(feature);
     }
   });
-
+  // Make sure data still returns in geojson format.
   return {
     "type": "FeatureCollection",
     "features": combinedData
   };
 }
 
-// Get the data with d3.
+// Create a function that will generate the choropleth map.
 function createChoropleth(data, chosenYear) {
   // Creating the map object
   myMap = L.map("map", {
@@ -63,19 +65,14 @@ function createChoropleth(data, chosenYear) {
     }).addTo(myMap);
   // Create a new choropleth layer. 
   geojson = L.choropleth(data, {
-
-    // Define which property in the features to use.
+    // Define which property in the features to use. Make sure the data type is "number".
     valueProperty: function(feature) {
-      return Number(feature.properties.cases.Years[chosenYear])
+      return Number(feature.properties.cases.Years[chosenYear]);
     },
-
     // Set the color scale.
-    scale: ["#ffffb2", "#b10026"],
-    
-
+    scale: ["#ffffb2", "#b10026"],    
     // The number of breaks in the step range
     steps: 15,
-
     // q for quartile, e for equidistant, k for k-means
     mode: "q",
     style: {
@@ -84,14 +81,12 @@ function createChoropleth(data, chosenYear) {
       weight: 1,
       fillOpacity: 0.8
     },
-
-    // Binding a popup to each layer
+    // Binding a popup for when you click on a country.
     onEachFeature: function(feature, layer) {
       layer.bindPopup("<strong>" + feature.properties.ADMIN + "</strong><br /><br />Number of Malaria cases: " +
       feature.properties.cases.Years[chosenYear]);
     }
   }).addTo(myMap);
-
   // Set up the legend.
   let legend = L.control({ position: "bottomright" });
   legend.onAdd = function() {
@@ -99,60 +94,50 @@ function createChoropleth(data, chosenYear) {
     let limits = geojson.options.limits;
     let colors = geojson.options.colors;
     let labels = [];
-
     // Add the minimum and maximum.
     let legendInfo = "<h5>Number of Malaria Cases</h5>" +
       "<div class=\"labels\">" +
         "<div class=\"min\">" + limits[0] + "</div>" +
         "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
       "</div>";
-
     div.innerHTML = legendInfo;
-
+    // Get the colors to correspond to the values.
     limits.forEach(function(limit, index) {
       labels.push("<li style=\"background-color: " + colors[index] + "\"></li>");
     });
-
     div.innerHTML += "<ul>" + labels.join("") + "</ul>";
     return div;
   };
-  
-
-  // Adding the legend to the map
+  // Adding the legend to the map.
   legend.addTo(myMap);
 };
 
-// update top 10 list function
+// Create the function toupdate top 10 list.
 function updatetop10list(chosenYear, data){
   var casesList = []
   let list = document.getElementById("top10list");
   list.innerHTML='';
-
-  // for loop that creates a list of dictionaries
-  for(var i in data){
+  // For loop that creates a list of dictionaries.
+  for(var i in data) {
       var key = i;
-      if( key != "Country"){
-      var caseAmount = data[i]["Years"][chosenYear]
+      if( key != "Country") {
+      var caseAmount = data[i]["Years"][chosenYear];
       let currentDict = {
           "country" : key,
           "numCases" : caseAmount
-      }
-      casesList.push(currentDict)
-      }
-      
+      };
+      casesList.push(currentDict);
+      };
   }
-
-  // sort by the number of cases
+  // Sort by the number of cases.
   casesList.sort(function(a,b){
       return b.numCases - a.numCases;
   })
-
-// Create the list elements for the top 10 list
+  // Create the list elements for the top 10 list.
   for(let i = 0; i < 10; i++){
       let li = document.createElement("li");
       li.appendChild(
       document.createTextNode(`${casesList[i]["country"]} (${casesList[i]["numCases"]})`));
       list.appendChild(li);
   }
-
 }

@@ -1,9 +1,7 @@
-# Project 3
-Topic: Incidence of Malaria Worldwide 
+# Topic: Incidence of Malaria Worldwide 
+### Contributors: Kokoe Amegno, Olivia Ramsey, Joanna Santana, Aaron Schneberger, Cayla Valentine
 
-Members: Kokoe Amegno, Olivia Ramsey, Joanna Santana, Aaron Schneberger, Cayla Valentine
-
-Description: Malaria is a disease caused by a plasmodium parasite, transmitted by the bite of infected mosquitoes.The disease symptoms are chills, fever, and sweating, usually occurring a few weeks after being bitten. In 2021 alone, there were 247 millions malaria cases with 619,000 deaths. People traveling to areas where malaria is common typically take protective drugs before, during, and after their trip. Treatment includes antimalarial drugs.
+Description: Malaria is a disease caused by a plasmodium parasite, transmitted by the bite of infected mosquitoes. The disease symptoms are chills, fever, and sweating, usually occurring a few weeks after being bitten. In 2021 alone, there were 247 millions malaria cases with 619,000 deaths. People traveling to areas where malaria is common typically take protective drugs before, during, and after their trip. Treatment includes antimalarial drugs.
 
 This project's primary goal is to identify countries that are most affected by this disease and how the number of cases has changed over the years. These visualizations are beneficial when making travel decisions and help the international medical community focus their resources and research to the most affected areas.
 

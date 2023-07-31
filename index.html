@@ -8,7 +8,6 @@
   <title>Malaria</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-  <!-- New code added here-->
   <!-- D3 library -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
 
@@ -22,7 +21,6 @@
     integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
     crossorigin=""/>
 
-  <!-- Step 2 -->
   <!-- leaflet-choropleth JavaScript -->
   <script type="text/javascript" src="static/js/choropleth.js"></script>
 
@@ -34,14 +32,24 @@
 </head>
 
 <body>
-
+  <!-- Dashboard Header -->
   <div class="container">
     <div id= "first-row" class="row">
       <div class="col-md-12 jumbotron text-center">
         <h1>Malaria Incidence Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <p>Malaria is a disease caused by a plasmodium parasite, transmitted by the bite of infected mosquitoes.
+          The disease symptoms are chills, fever, and sweating, usually occurring a few weeks after being bitten.
+          In 2021 alone, there were 247 millions malaria cases with 619,000 deaths.
+          People traveling to areas where malaria is common typically take protective drugs before, during, and after their trip.
+          <br><br>This project's primary goal is to identify countries that are most affected by this disease and how the number of cases has changed over the years.
+          These visualizations are beneficial when making travel decisions and help the international medical community focus their resources and research to the most affected areas.
+          <br><br><a href="https://www.who.int/data/gho/data/themes/topics/topic-details/GHO/malaria-cases-deaths">Malaria data source</a>
+          <br><a href="https://datahub.io/core/geo-countries">GeoJSON data source</a>
+          <br><a href="https://www.who.int/publications/i/item/9789240064898">World Malaria Report 2022</a>
+          <br><br>Use the interactive charts below to explore the dataset.</p>
       </div>
     </div>
+    <!-- Country dropdown menus and line graph -->
     <div id= "second-row" class="row row-spacing">
       <div class="col-md-4">
         <div class="well">
@@ -54,9 +62,11 @@
       </div>
       <div class="col-md-8">
         <h5 class="text-center">Number of Malaria Cases</h5>
+        <!-- The div where we'll insert our map -->
         <canvas id="line" style="width:100%;max-width:700px"></canvas>
       </div>
     </div>
+    <!-- Year dropdown, top 10 list, and map -->
     <div id= "third-row" class="row row-spacing">
       <div class="col-md-4">
         <div class="well">
@@ -100,9 +110,6 @@
       </div>
     </div>
   </div>
-
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
   <!-- Our JavaScript files-->
   <script type="text/javascript" src="static/js/logic-choropleth-top-10.js"></script>

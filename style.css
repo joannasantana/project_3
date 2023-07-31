@@ -1,23 +1,23 @@
 body {
-    padding: 0;
-    margin: 0;
-  }
+  padding: 0;
+  margin: 0;
+}
   
-  #map,
-  body,
-  html {
-    height: 100%;
-  }
+#map,
+body,
+html {
+  height: 100%;
+}
+/* set the size of the container for the dropdown windows and top 10 list */
+.well {
+  width: 300px; 
+  padding: 10px; 
+}
+/* Set the dropdown width to 100% of its container */
+select {
+  width: 100%; 
+  box-sizing: border-box; 
+}
 
-  .well {
-    width: 300px; /* Set the width of the well container */
-    padding: 10px; /* Optional: Add some padding for better appearance */
-  }
-  
-  select {
-    width: 100%; /* Set the dropdown width to 100% of its container */
-    box-sizing: border-box; /* Include padding and border in the width */
-  }
-  
   
   
